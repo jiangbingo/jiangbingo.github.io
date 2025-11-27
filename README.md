@@ -27,17 +27,17 @@ python -m http.server 8000
 
    ```bash
    git init
-   git branch -M main
+   git branch -M master
    git remote add origin git@github.com:jiangbingo/jiangbingo.github.io.git
 
    git add .
    git commit -m "feat: initial personal site"
-   git push -u origin main
+   git push -u origin master
    ```
 
 2. 打开 GitHub 上的 `jiangbingo/jiangbingo.github.io` 仓库：进入 **Settings → Pages**，将 Source 设置为：
    - `Deploy from a branch`
-   - Branch：`main`
+   - Branch：`master`
    - Directory：`/ (root)`
 
 3. 保存后等待 1～3 分钟，访问 `https://jiangbingo.github.io` 即可看到上线后的个人主页。
