@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus） · 江斌</title>
+  <meta name="description" content="结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">JB</div>
+      <nav class="nav">
+        <a href="../index.html">首页</a>
+        <a href=".">博客</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container blog-article">
+      <h1>从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）</h1>
+      <p class="blog-article-meta">示例文章结构（你可以在此基础上补充真实内容）</p>
+
+      <p>
+        这篇文章建议你结合实际项目经历来写，用通俗但工程化的方式解释：业务背景是什么、为什么选择 RAG、
+        整体架构如何设计，以及落地过程中的关键实践经验。
+      </p>
+
+      <h2>1. 背景与目标</h2>
+      <ul>
+        <li>企业内部有大量 PDF / Word / 表格协议或业务文档，人工查找成本高。</li>
+        <li>希望通过知识库问答系统，让业务/测试/一线工程师可以自然语言提问。</li>
+        <li>回答要“可追溯”，能回溯到原始文档片段，而不是纯生成。</li>
+      </ul>
+
+      <h2>2. 整体架构设计</h2>
+      <ul>
+        <li>文档解析层：负责格式转换、文本抽取与分段。</li>
+        <li>向量化与入库：将段落向量化，写入 Milvus 等向量数据库。</li>
+        <li>检索与重排：根据问题在向量库中召回候选片段，并做必要的过滤/重排。</li>
+        <li>生成层：将检索结果与用户问题拼接成 Prompt，交给大模型生成回答。</li>
+        <li>服务层：使用 FastAPI 暴露统一的 HTTP 接口，负责认证、限流和日志等工程能力。</li>
+      </ul>
+
+      <h2>3. FastAPI 服务设计建议</h2>
+      <ul>
+        <li>使用 Pydantic 定义清晰的请求/响应模型，便于前后端协作与文档生成。</li>
+        <li>将“检索逻辑”和“生成逻辑”拆分成可单独测试的 service / usecase 层。</li>
+        <li>对向量检索、LLM 调用设置合理超时与熔断，避免单次请求拖慢整体系统。</li>
+      </ul>
+
+      <h2>4. Milvus 库表与索引设计要点</h2>
+      <ul>
+        <li>根据业务维度设计 collection，例如按系统、项目或文档类型划分。</li>
+        <li>保存额外的 metadata（文档名、章节、页码等），方便在回答中展示出处。</li>
+        <li>根据查询特性选择合适的索引类型和 metric（如 IP / cosine）。</li>
+      </ul>
+
+      <h2>5. 工程化与上线实践</h2>
+      <ul>
+        <li>通过 Docker 封装 FastAPI 服务与向量服务，方便部署与回滚。</li>
+        <li>在日志中记录 "检索到的片段" 与 "最终回答"，便于后续质量分析和调优。</li>
+        <li>为关键接口编写自动化测试用例，验证检索+生成链路是否按预期工作。</li>
+      </ul>
+
+      <p>
+        文章最后可以给出一个小的 Demo 仓库地址，或者部分关键代码片段，让读者可以快速上手。
+        你可以把这篇示例改写成真实经验分享，作为博客的第一篇正式文章。
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 江斌 · 技术博客</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
