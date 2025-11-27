@@ -1,17 +1,17 @@
 :root {
-  --bg: #0f172a;
-  --bg-alt: #020617;
-  --card-bg: #020617;
-  --accent: #38bdf8;
-  --accent-soft: rgba(56, 189, 248, 0.12);
-  --accent-strong: #0ea5e9;
-  --text: #e5e7eb;
-  --text-muted: #9ca3af;
-  --border: #1f2937;
+  --bg: #f3f4f6;
+  --bg-alt: #ffffff;
+  --card-bg: #ffffff;
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.08);
+  --accent-strong: #1d4ed8;
+  --text: #111827;
+  --text-muted: #4b5563;
+  --border: #e5e7eb;
   --radius-lg: 16px;
   --radius-sm: 8px;
-  --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.75);
-  --shadow-card: 0 10px 30px rgba(15, 23, 42, 0.9);
+  --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.12);
+  --shadow-card: 0 10px 25px rgba(15, 23, 42, 0.12);
 }
 
 * {
@@ -21,7 +21,7 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top left, #1d283a 0, #020617 50%, #000 100%);
+  background: radial-gradient(circle at top left, #e5f0ff 0, #f9fafb 45%, #f3f4f6 100%);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -46,9 +46,9 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(18px);
-  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.8), transparent);
-  border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+  backdrop-filter: blur(14px);
+  background: rgba(248, 250, 252, 0.9);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
 }
 
 .nav-container {
@@ -80,7 +80,34 @@ a:hover {
 }
 
 .nav a:hover {
-  color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 1rem;
+}
+
+.lang-btn {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  background: transparent;
+}
+
+.lang-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.lang-btn:hover {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
 }
 
 .hero {
@@ -169,12 +196,12 @@ a:hover {
 }
 
 .hero-card {
-  background: radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.15), transparent 50%),
-              radial-gradient(circle at 100% 0, rgba(129, 140, 248, 0.15), transparent 55%),
-              #020617;
+  background: radial-gradient(circle at 0 0, rgba(37, 99, 235, 0.08), transparent 55%),
+              radial-gradient(circle at 100% 0, rgba(129, 140, 248, 0.08), transparent 60%),
+              var(--card-bg);
   border-radius: var(--radius-lg);
   padding: 1.5rem 1.6rem;
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
 }
 
@@ -199,7 +226,7 @@ a:hover {
 }
 
 .section-alt {
-  background: radial-gradient(circle at top, rgba(15, 23, 42, 0.85), #020617 40%, #000 100%);
+  background: linear-gradient(to bottom, #f9fafb, #eef2ff);
 }
 
 .section h2 {
@@ -226,9 +253,9 @@ a:hover {
 }
 
 .card {
-  background: rgba(15, 23, 42, 0.95);
+  background: var(--card-bg);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border: 1px solid var(--border);
   padding: 1.4rem 1.5rem;
   box-shadow: var(--shadow-card);
 }
@@ -254,7 +281,7 @@ a:hover {
 }
 
 .timeline {
-  border-left: 1px solid rgba(148, 163, 184, 0.35);
+  border-left: 1px solid rgba(148, 163, 184, 0.4);
   margin-left: 0.5rem;
   padding-left: 1.5rem;
 }
@@ -322,9 +349,9 @@ a:hover {
 }
 
 .blog-card {
-  background: rgba(15, 23, 42, 0.95);
+  background: var(--card-bg);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border: 1px solid var(--border);
   padding: 1.25rem 1.4rem;
   transition: border-color 0.15s ease-out, transform 0.1s ease-out, box-shadow 0.1s ease-out;
 }
@@ -332,7 +359,7 @@ a:hover {
 .blog-card:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.95);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.16);
 }
 
 .blog-card-title {
