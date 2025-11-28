@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Technical Blog",
-    "section": "",
-    "text": "Hello Quarto: 为什么我选择它作为技术博客方案\n\n\n\nQuarto\n\nBlogging\n\nPython\n\n\n\n从 Hugo 到 Hexo，再到最终选择 Quarto，聊聊我的博客折腾史以及 Quarto 的独特优势。\n\n\n\n\n\nNov 28, 2024\n\n\nJiang Bin\n\n\n\n\n\n\n\n\n\n\n\n\n从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）\n\n\n\nRAG\n\nFastAPI\n\nMilvus\n\nAI\n\n\n\n结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。\n\n\n\n\n\nNov 27, 2024\n\n\nJiang Bin\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.en.html",
     "href": "index.en.html",
     "title": "Jiang Bin",
@@ -77,48 +70,6 @@
     "text": "结语\n如果你也是数据科学从业者或 Python 爱好者，强烈推荐尝试 Quarto。它不仅是一个博客生成器，更是一个强大的技术发布系统。"
   },
   {
-    "objectID": "posts/rag-backend-fastapi/index.html",
-    "href": "posts/rag-backend-fastapi/index.html",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "",
-    "text": "这篇文章建议你结合实际项目经历来写，用通俗但工程化的方式解释：业务背景是什么、为什么选择 RAG、整体架构如何设计，以及落地过程中的关键实践经验。"
-  },
-  {
-    "objectID": "posts/rag-backend-fastapi/index.html#背景与目标",
-    "href": "posts/rag-backend-fastapi/index.html#背景与目标",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "1. 背景与目标",
-    "text": "1. 背景与目标\n\n企业内部有大量 PDF / Word / 表格协议或业务文档，人工查找成本高。\n希望通过知识库问答系统，让业务/测试/一线工程师可以自然语言提问。\n回答要“可追溯”，能回溯到原始文档片段，而不是纯生成。"
-  },
-  {
-    "objectID": "posts/rag-backend-fastapi/index.html#整体架构设计",
-    "href": "posts/rag-backend-fastapi/index.html#整体架构设计",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "2. 整体架构设计",
-    "text": "2. 整体架构设计\n\n文档解析层：负责格式转换、文本抽取与分段。\n向量化与入库：将段落向量化，写入 Milvus 等向量数据库。\n检索与重排：根据问题在向量库中召回候选片段，并做必要的过滤/重排。\n生成层：将检索结果与用户问题拼接成 Prompt，交给大模型生成回答。\n服务层：使用 FastAPI 暴露统一的 HTTP 接口，负责认证、限流和日志等工程能力。"
-  },
-  {
-    "objectID": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
-    "href": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "3. FastAPI 服务设计建议",
-    "text": "3. FastAPI 服务设计建议\n\n使用 Pydantic 定义清晰的请求/响应模型，便于前后端协作与文档生成。\n将“检索逻辑”和“生成逻辑”拆分成可单独测试的 service / usecase 层。\n对向量检索、LLM 调用设置合理超时与熔断，避免单次请求拖慢整体系统。"
-  },
-  {
-    "objectID": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
-    "href": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "4. Milvus 库表与索引设计要点",
-    "text": "4. Milvus 库表与索引设计要点\n\n根据业务维度设计 collection，例如按系统、项目或文档类型划分。\n保存额外的 metadata（文档名、章节、页码等），方便在回答中展示出处。\n根据查询特性选择合适的索引类型和 metric（如 IP / cosine）。"
-  },
-  {
-    "objectID": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
-    "href": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
-    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
-    "section": "5. 工程化与上线实践",
-    "text": "5. 工程化与上线实践\n\n通过 Docker 封装 FastAPI 服务与向量服务，方便部署与回滚。\n在日志中记录 “检索到的片段” 与 “最终回答”，便于后续质量分析和调优。\n为关键接口编写自动化测试用例，验证检索+生成链路是否按预期工作。\n\n\n文章最后可以给出一个小的 Demo 仓库地址，或者部分关键代码片段，让读者可以快速上手。 你可以把这篇示例改写成真实经验分享，作为博客的第一篇正式文章。"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "江斌",
@@ -166,5 +117,54 @@
     "title": "江斌",
     "section": "联系我",
     "text": "联系我\n欢迎就 Python / AI 应用工程化 / RAG 系统 / 工业智能化等方向进行交流或合作。\n\n手机：15057134823\n邮箱：jiangbingo@hotmail.com\nGitHub：github.com/jiangbingo\n所在城市：杭州"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html",
+    "href": "posts/rag-backend-fastapi/index.html",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "",
+    "text": "这篇文章建议你结合实际项目经历来写，用通俗但工程化的方式解释：业务背景是什么、为什么选择 RAG、整体架构如何设计，以及落地过程中的关键实践经验。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#背景与目标",
+    "href": "posts/rag-backend-fastapi/index.html#背景与目标",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "1. 背景与目标",
+    "text": "1. 背景与目标\n\n企业内部有大量 PDF / Word / 表格协议或业务文档，人工查找成本高。\n希望通过知识库问答系统，让业务/测试/一线工程师可以自然语言提问。\n回答要“可追溯”，能回溯到原始文档片段，而不是纯生成。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#整体架构设计",
+    "href": "posts/rag-backend-fastapi/index.html#整体架构设计",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "2. 整体架构设计",
+    "text": "2. 整体架构设计\n\n文档解析层：负责格式转换、文本抽取与分段。\n向量化与入库：将段落向量化，写入 Milvus 等向量数据库。\n检索与重排：根据问题在向量库中召回候选片段，并做必要的过滤/重排。\n生成层：将检索结果与用户问题拼接成 Prompt，交给大模型生成回答。\n服务层：使用 FastAPI 暴露统一的 HTTP 接口，负责认证、限流和日志等工程能力。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
+    "href": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "3. FastAPI 服务设计建议",
+    "text": "3. FastAPI 服务设计建议\n\n使用 Pydantic 定义清晰的请求/响应模型，便于前后端协作与文档生成。\n将“检索逻辑”和“生成逻辑”拆分成可单独测试的 service / usecase 层。\n对向量检索、LLM 调用设置合理超时与熔断，避免单次请求拖慢整体系统。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
+    "href": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "4. Milvus 库表与索引设计要点",
+    "text": "4. Milvus 库表与索引设计要点\n\n根据业务维度设计 collection，例如按系统、项目或文档类型划分。\n保存额外的 metadata（文档名、章节、页码等），方便在回答中展示出处。\n根据查询特性选择合适的索引类型和 metric（如 IP / cosine）。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
+    "href": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "5. 工程化与上线实践",
+    "text": "5. 工程化与上线实践\n\n通过 Docker 封装 FastAPI 服务与向量服务，方便部署与回滚。\n在日志中记录 “检索到的片段” 与 “最终回答”，便于后续质量分析和调优。\n为关键接口编写自动化测试用例，验证检索+生成链路是否按预期工作。\n\n\n文章最后可以给出一个小的 Demo 仓库地址，或者部分关键代码片段，让读者可以快速上手。 你可以把这篇示例改写成真实经验分享，作为博客的第一篇正式文章。"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Technical Blog",
+    "section": "",
+    "text": "Hello Quarto: 为什么我选择它作为技术博客方案\n\n\n\nQuarto\n\nBlogging\n\nPython\n\n\n\n从 Hugo 到 Hexo，再到最终选择 Quarto，聊聊我的博客折腾史以及 Quarto 的独特优势。\n\n\n\n\n\nNov 28, 2024\n\n\nJiang Bin\n\n\n\n\n\n\n\n\n\n\n\n\n从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）\n\n\n\nRAG\n\nFastAPI\n\nMilvus\n\nAI\n\n\n\n结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。\n\n\n\n\n\nNov 27, 2024\n\n\nJiang Bin\n\n\n\n\n\nNo matching items"
   }
 ]
