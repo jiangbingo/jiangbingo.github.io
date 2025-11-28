@@ -197,6 +197,22 @@ Responsible for 5G protocol parsing, automation testing platforms, and efficienc
 Participated in the development of the ecommerce cloud platform backend and data collection system.
 </div>
 
+<div class="timeline-item">
+<div class="timeline-title">Xizi YOUMY · Software Development Engineer</div>
+<div class="timeline-meta">2011.04 – 2014.09 · New Standard Escalator Project</div>
+<ul>
+<li>Logic software programming based on PLC, MCU, ARM, DSP (C, ASM Assembly)</li>
+<li>Hardware/software production and maintenance of test fixtures for development boards and embedded systems</li>
+<li>Certification of safety electronic systems</li>
+<li>Technical guidance for pioneer products, on-site problem collection and resolution</li>
+</ul>
+**Achievements:**
+<ul>
+<li>Completed SIL 2 certification for safety electronic systems</li>
+<li>Completed the release of the first batch of products under the new national standard for escalators</li>
+</ul>
+</div>
+
 </div>
 
 <div class="my-5"></div>
@@ -205,6 +221,13 @@ Participated in the development of the ecommerce cloud platform backend and data
 
 - **South-Central Minzu University** · Bachelor · Biomedical Engineering · 2005 – 2010
 - CET-6
+
+<div class="my-5"></div>
+
+## Volunteer & Community
+
+- **West Lake Maker Space Mentor** (2015.06 – 2017.05): Served a community of 1000+ young makers.
+- **1566 Maker Charity Fund Ambassador**: Provided charity funds and technical support for maker projects.
 
 <div class="my-5"></div>
 
