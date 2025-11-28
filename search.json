@@ -4,35 +4,35 @@
     "href": "index.en.html",
     "title": "Jiang Bin",
     "section": "",
-    "text": "Resume PDF    Github    Email \n\n\n\n\nAI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
+    "text": "Resume PDF    Github    Email \n\n\n\n\nAI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou / Wuhan, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
   },
   {
     "objectID": "index.en.html#about-me",
     "href": "index.en.html#about-me",
     "title": "Jiang Bin",
     "section": "",
-    "text": "AI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
+    "text": "AI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou / Wuhan, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
   },
   {
     "objectID": "index.en.html#skills",
     "href": "index.en.html#skills",
     "title": "Jiang Bin",
     "section": "Skills",
-    "text": "Skills\n\n\n\n\n\nAI / LLM & RAG\n\n\n\nRAG: Document parsing, Vector retrieval (Milvus, etc.)\n\n\nPrompt Engineering: Multi-turn dialogue, Tool calling\n\n\nDefect Detection LLM: Specialized visual models + General LLM collaboration\n\n\nLLM Function Calling: Workflow orchestration\n\n\n\n\n\n\n\n\n\nBackend & Data\n\n\n\nPython: FastAPI, Django, Flask\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\nCloud Native & Engineering\n\n\n\nAzure: Function, ML Service\n\n\nDevOps: Jenkins, GitLab CI, Docker\n\n\nTest: RobotFramework\n\n\nEmbedded: C / Assembly"
+    "text": "Skills\n\n\n\n\n\nAI / LLM & RAG\n\n\n\nRAG: Document parsing, Vector retrieval (Milvus, etc.)\n\n\nPrompt Engineering: Multi-turn dialogue, Tool calling\n\n\nDefect Detection LLM: Specialized visual models + General LLM collaboration\n\n\nLLM Function Calling: Workflow orchestration\n\n\n\n\n\n\n\n\n\nBackend & Data\n\n\n\nLanguages: Python (FastAPI, Django, Flask), C++\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus, PostgreSQL\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\nCloud Native & Engineering\n\n\n\nAzure: Function, ML Service, Serverless\n\n\nDevOps: Jenkins, GitLab CI, Docker, JIRA\n\n\nTest: RobotFramework, pytest, unittest\n\n\nEmbedded: C / Assembly (MCU, ARM, DSP)"
   },
   {
     "objectID": "index.en.html#projects",
     "href": "index.en.html#projects",
     "title": "Jiang Bin",
     "section": "Projects",
-    "text": "Projects\n\n\n\n\n\nDefect Detection LLM Platform\n\n\n2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML\n\n\n\nBuilt the backend for a defect detection system, integrating specialized visual models with general LLMs for online defect identification.\n\n\nDesigned FastAPI interfaces and Pydantic data models, RESTful routing, clear and extensible structure.\n\n\nImplemented Function Calling and ML model engineering deployment, supporting both local and cloud environments.\n\n\nImproved system throughput and user experience via asynchronous queues and WebSockets.\n\n\n\n\n\n\n\n\n\nRAG Intelligent Q&A System\n\n\n2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus\n\n\n\nResponsible for the full process of backend architecture, coding, and deployment; project functionality completed and pre-launched.\n\n\nSelected and implemented RAG solutions, supporting complex documents and multi-turn Q&A.\n\n\nDesigned vector database structure using Milvus, optimizing recall speed and accuracy.\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP Protocol Parser\n\n\n2016 – 2022 · Telecom Protocol · Python / Document Parsing\n\n\n\nDeveloped an automated parser for massive, complex 3GPP Word documents.\n\n\nAutomatically identified text, table, and format errors with partial correction, outputting structured data and logs.\n\n\nSignificantly reduced manual parsing costs and improved data accuracy and efficiency.\n\n\n\n\n\n\n\n\n\nAutomation Test & Efficiency Tools\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\nCloud test environment reservation tool: Saved ~1 hour/person/day, won Tribe Annual TOP3.\n\n\nSleeping Cell detection & reset tool: Based on SQL + Shell, supported troubleshooting for hundreds of thousands of BTS, won Tribe Annual TOP10.\n\n\n\n\n\n\n\n\n\nEcommerce Cloud Platform Backend (Open Source)\n\n\n2015 – 2016 · Ecommerce · Django / Crawler\n\n\n\nBuilt the backend module for an ecommerce data center using Django.\n\n\nWrote web crawlers to collect and organize 20G+ of ecommerce data.\n\n\nOpen Source: github.com/jiangbingo/backend"
+    "text": "Projects\n\n\n\n\n\nDefect Detection LLM Platform\n\n\n2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML\n\n\n\nBackend Arch: Built backend for defect detection system, integrating visual models & LLMs for online identification.\n\n\nAPI Design: Designed RESTful APIs using FastAPI & Pydantic models for high efficiency and stability.\n\n\nEngineering: Implemented Function Calling & ML model deployment (Local/Cloud), optimizing resource allocation.\n\n\nPerformance: Designed RabbitMQ async queues & WebSocket communication to boost throughput and UX.\n\n\n\n\n\n\n\n\n\nRAG Intelligent Q&A System\n\n\n2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus\n\n\n\nFull Stack: Responsible for backend architecture, coding, workflow, and deployment (Pre-launched).\n\n\nCore Tech: Led AI knowledge base construction, Prompt Engineering, and RAG development.\n\n\nData Opt: Designed Milvus vector database structure, significantly improving retrieval efficiency and accuracy.\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP Protocol Parser\n\n\n2022.08 – 2022.10 · Telecom Protocol · Python / Document Parsing\n\n\n\nDeveloped automated parser for massive 3GPP Word docs (multi-dimensional tables, unstructured data).\n\n\nAutomated identification of text/table/format errors with partial correction, outputting structured data & logs.\n\n\nSignificantly reduced manual parsing costs and improved data accuracy and efficiency.\n\n\n\n\n\n\n\n\n\nAutomation Test & Efficiency Tools\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\nCloud Reservation Tool: Automated test environment reservation, saved 1h/person/day (Tribe Top 3).\n\n\nSleeping Cell Tool: SQL+Shell based detection/reset for 100k+ BTS (Tribe Top 10).\n\n\nDeveloped various efficiency tools (Crawler, Selenium, Shell) to enhance team collaboration.\n\n\n\n\n\n\n\n\n\nEcommerce Cloud Platform Backend (Open Source)\n\n\n2015 – 2016 · Ecommerce · Django / Crawler\n\n\n\nBuilt the backend module for an ecommerce data center using Django.\n\n\nWrote web crawlers to collect and organize 20G+ of ecommerce data.\n\n\nOpen Source: github.com/jiangbingo/backend"
   },
   {
     "objectID": "index.en.html#experience",
     "href": "index.en.html#experience",
     "title": "Jiang Bin",
     "section": "Experience",
-    "text": "Experience\n\n\n\nHangzhou Clayton Industries · AI Application Engineer\n\n\n2024.11 – Present · Industrial AI / Defect Detection / FastAPI\n\nResponsible for the design and development of AI knowledge bases and intelligent Q&A systems, advancing RAG and LLM application engineering.\n\n\n\nHangzhou C&U Group · Python Backend Developer\n\n\n2024.08 – 2024.10 · Digital MES Platform\n\nResponsible for technical planning of the MES platform backend module and Django backend development, designing asynchronous Celery tasks and database structures.\n\n\n\nNokia Solutions and Networks · Test Development Engineer\n\n\n2016.10 – 2023.05 · Automation Testing / Platform Tools\n\nResponsible for 5G protocol parsing, automation testing platforms, and efficiency tool development, covering Python, C++, Shell, Lua, etc.\n\n\n\nHangzhou Geling Technology · Python Developer\n\n\n2014.12 – 2016.10 · Ecommerce Cloud Platform\n\nParticipated in the development of the ecommerce cloud platform backend and data collection system."
+    "text": "Experience\n\n\n\nHangzhou Clayton Industries · AI Application Engineer\n\n\n2024.11 – Present\n\n\n\nResponsible for backend design & dev using Pydantic + FastAPI, ensuring system stability.\n\n\nDesigned intelligent Q&A system, focusing on Prompt Engineering & RAG technology selection.\n\n\nDeveloped defect detection ML algorithms and engineered LLM applications.\n\n\nResponsible for Azure cloud system engineering (Backend, Function Calling, ML) and performance optimization.\n\n\n\n\n\nHangzhou C&U Group · Python Backend Developer\n\n\n2024.08 – 2024.10 · Digital MES Platform\n\n\n\nResponsible for technical planning of the MES platform backend module.\n\n\nImplemented business logic (Django), designed async Celery tasks & MariaDB structure.\n\n\nParticipated in API design & review, wrote technical documentation & interface standards.\n\n\n\n\n\nNokia Solutions and Networks · Test Development Engineer\n\n\n2016.10 – 2023.05\n\n\n\nAutomation Test: Projects based on RobotFramework (Grey-box) and TTCN-3.\n\n\nSoftware Dev: Participated in C++ software development and testing.\n\n\nTool Dev: Developed automation & platform tools using Python, Shell, Lua.\n\n\nDevOps: Practiced CI/CD using Jenkins, GitLab CI, Docker, etc.\n\n\n\n\n\nHangzhou Geling Technology · Python Developer\n\n\n2014.12 – 2016.10 · Ecommerce Cloud Platform\n\n\n\nBuilt data cloud platform based on Python Django.\n\n\nResponsible for web crawler data collection and processing.\n\n\n\n\n\nXizi YOUMY · Software Development Engineer\n\n\n2010.07 – 2014.09 · New Standard Escalator Project\n\n\n\nResponsible for logic software programming based on PLC, MCU, ARM, DSP (C/ASM).\n\n\nDeveloped and maintained test fixtures for embedded systems; conducted safety system certification.\n\n\nProvided technical guidance for pioneer products and resolved on-site issues.\n\n\nAchievements: Completed SIL 2 certification; released the first batch of new national standard escalators."
   },
   {
     "objectID": "index.en.html#education",
@@ -42,11 +42,18 @@
     "text": "Education\n\nSouth-Central Minzu University · Bachelor · Biomedical Engineering · 2005 – 2010\nCET-6"
   },
   {
+    "objectID": "index.en.html#volunteer-community",
+    "href": "index.en.html#volunteer-community",
+    "title": "Jiang Bin",
+    "section": "Volunteer & Community",
+    "text": "Volunteer & Community\n\n\n\nWest Lake Maker Space · Mentor\n\n\n2015.06 – 2017.05\n\nServed a community of 1000+ young makers, sharing technical experience and guiding project development; organized and hosted multiple technical workshops and hackathons.\n\n\n\n1566 Maker Charity Fund · Ambassador\n\n\nCore Member\n\nProvided charity funds and technical support for potential maker projects; participated in project reviews to help select and cultivate innovative projects with social value."
+  },
+  {
     "objectID": "index.en.html#contact-me",
     "href": "index.en.html#contact-me",
     "title": "Jiang Bin",
     "section": "Contact Me",
-    "text": "Contact Me\nWelcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.\n\nMobile: 15057134823\nEmail: jiangbingo@hotmail.com\nGitHub: github.com/jiangbingo\nLocation: Hangzhou, China"
+    "text": "Contact Me\n\n\nWelcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.\n\nEmail: jiangbingo@hotmail.com\nGitHub: github.com/jiangbingo\nLocation: Hangzhou / Wuhan, China"
   },
   {
     "objectID": "posts/hello-quarto/index.html",
@@ -74,35 +81,35 @@
     "href": "index.html",
     "title": "江斌",
     "section": "",
-    "text": "Resume PDF    Github    Email \n\n\n\n\nAI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
+    "text": "Resume PDF    Github    Email \n\n\n\n\nAI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州 / 武汉的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
   },
   {
     "objectID": "index.html#个人简介",
     "href": "index.html#个人简介",
     "title": "江斌",
     "section": "",
-    "text": "AI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
+    "text": "AI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州 / 武汉的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
   },
   {
     "objectID": "index.html#技能栈",
     "href": "index.html#技能栈",
     "title": "江斌",
     "section": "技能栈",
-    "text": "技能栈\n\n\n\n\n\nAI / 大模型 & RAG\n\n\n\nRAG 检索增强：文档解析、向量检索（Milvus 等）\n\n\nPrompt Engineering：多轮对话、工具调用\n\n\n缺陷检测大模型应用：专用视觉检测模型 + 通用 LLM 协同\n\n\nLLM Function Calling：与工作流编排\n\n\n\n\n\n\n\n\n\n后端开发 & 数据\n\n\n\nPython: FastAPI, Django, Flask\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\n云原生 & 工程化\n\n\n\nAzure: Function, ML Service\n\n\nDevOps: Jenkins, GitLab CI, Docker\n\n\nTest: RobotFramework\n\n\nEmbedded: C / Assembly"
+    "text": "技能栈\n\n\n\n\n\nAI / 大模型 & RAG\n\n\n\nRAG 检索增强：文档解析、向量检索（Milvus 等）\n\n\nPrompt Engineering：多轮对话、工具调用\n\n\n缺陷检测大模型应用：专用视觉检测模型 + 通用 LLM 协同\n\n\nLLM Function Calling：与工作流编排\n\n\n\n\n\n\n\n\n\n后端开发 & 数据\n\n\n\nLanguages: Python (FastAPI, Django, Flask), C++\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus, PostgreSQL\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\n云原生 & 工程化\n\n\n\nAzure: Function, ML Service, Serverless\n\n\nDevOps: Jenkins, GitLab CI, Docker, JIRA\n\n\nTest: RobotFramework, pytest, unittest\n\n\nEmbedded: C / Assembly (MCU, ARM, DSP)"
   },
   {
     "objectID": "index.html#代表项目",
     "href": "index.html#代表项目",
     "title": "江斌",
     "section": "代表项目",
-    "text": "代表项目\n\n\n\n\n\n缺陷检测大模型应用平台\n\n\n2025.04 – 至今 · 工业缺陷检测 · FastAPI / Azure / ML\n\n\n\n搭建缺陷检测系统后端，融合专用视觉模型与通用大模型，支持在线缺陷识别与判定。\n\n\n设计 FastAPI 接口与 Pydantic 数据模型，路由 RESTful 化，结构清晰易扩展。\n\n\n实现 Function Calling 与 ML 模型工程化部署，支持本地与云上双环境。\n\n\n通过异步队列与 WebSocket 提升系统吞吐与用户体验。\n\n\n\n\n\n\n\n\n\nRAG 智能问答系统\n\n\n2024.11 – 2025.04 · 企业知识库 · RAG / Milvus\n\n\n\n负责后端架构、编码、部署的全流程工作，项目已完成预期功能开发并预上线。\n\n\n选型并实现 RAG 检索增强方案，支持复杂文档与多轮问答。\n\n\n使用 Milvus 设计向量数据库结构，优化召回速度与精度。\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP 协议解析器\n\n\n2016 – 2022 · 通信协议 · Python / 文档解析\n\n\n\n针对超大体量、复杂表格结构的 3GPP Word 文档，开发自动化解析器。\n\n\n自动识别文本、表格与格式错误并部分纠错，输出结构化数据与日志。\n\n\n显著降低人工解析成本，提升协议数据处理的准确性与效率。\n\n\n\n\n\n\n\n\n\n自动化测试与效率工具合集\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\n云平台测试环境一键预定工具：为团队节省约 1 小时/人/天，获 Tribe 年度 TOP3。\n\n\nSleeping Cell 检测与复位工具：基于 SQL + Shell，支撑数十万台 BTS 的问题排查，获 Tribe 年度 TOP10。\n\n\n\n\n\n\n\n\n\n电商云平台后台（开源 Demo）\n\n\n2015 – 2016 · 电商平台 · Django / 爬虫\n\n\n\n构建电商数据中心后台模块，使用 Django 实现管理后台。\n\n\n编写网络爬虫采集并整理 20G 级别电商数据。\n\n\n项目代码开源：github.com/jiangbingo/backend"
+    "text": "代表项目\n\n\n\n\n\n缺陷检测大模型应用平台\n\n\n2025.04 – 至今 · 工业缺陷检测 · FastAPI / Azure / ML\n\n\n\n后端架构：搭建缺陷检测系统后端，融合专用视觉模型与通用大模型，支持在线缺陷识别与判定。\n\n\n接口设计：采用 Pydantic 模型结合 FastAPI 框架，路由 RESTful 化，确保系统高效稳定。\n\n\n工程化部署：实现 Function Calling 与 ML 模型工程化部署（本地/云上），优化资源配置。\n\n\n高性能通信：设计 RabbitMQ 异步消息队列与 WebSocket 通信，提升系统吞吐与用户体验。\n\n\n\n\n\n\n\n\n\nRAG 智能问答系统\n\n\n2024.11 – 2025.04 · 企业知识库 · RAG / Milvus\n\n\n\n全栈负责：负责后端架构、编码、工作流及部署全环节，项目已预上线。\n\n\n核心技术：主导 AI 知识库搭建，开发 Prompt 提示词工程，推进 RAG 检索增强生成开发。\n\n\n数据优化：使用 Milvus 设计向量数据库结构，显著提升数据处理效率和召回准确性。\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP 协议解析器\n\n\n2022.08 – 2022.10 · 通信协议 · Python / 文档解析\n\n\n\n针对 3GPP 协议超大 Word 文档（多维表格、非结构化数据）开发自动化解析器。\n\n\n自动化识别文本、表格、数据及格式错误并部分纠错，输出结构化数据与 Log 文件。\n\n\n显著降低人工解析成本，提升协议数据处理的准确性与效率。\n\n\n\n\n\n\n\n\n\n自动化测试与效率工具合集\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\n云平台预定工具：自动化预定测试环境，节省 1h/人/天，获 Tribe 年度 TOP3。\n\n\nSleeping Cell 检测工具：基于 SQL + Shell，支撑数十万台 BTS 问题排查，获 Tribe 年度 TOP10。\n\n\n开发多种效率工具（爬虫、Selenium、Shell），提升团队协作效率。\n\n\n\n\n\n\n\n\n\n电商云平台后台（开源 Demo）\n\n\n2015 – 2016 · 电商平台 · Django / 爬虫\n\n\n\n构建电商数据中心后台模块，使用 Django 实现管理后台。\n\n\n编写网络爬虫采集并整理 20G 级别电商数据。\n\n\n项目代码开源：github.com/jiangbingo/backend"
   },
   {
     "objectID": "index.html#工作经历",
     "href": "index.html#工作经历",
     "title": "江斌",
     "section": "工作经历",
-    "text": "工作经历\n\n\n\n杭州克雷登工业 · AI 应用工程师\n\n\n2024.11 – 至今 · 工业 AI / 缺陷检测 / FastAPI\n\n负责 AI 知识库与智能问答系统的设计与开发，推进 RAG 检索增强与大模型应用工程化。\n\n\n\n杭州人本集团 · Python 后端开发\n\n\n2024.08 – 2024.10 · 数字化 MES 平台\n\n负责 MES 平台后台模块技术规划与 Django 后台开发，设计异步 Celery 任务与数据库结构。\n\n\n\n诺基亚通信技术有限公司 · 测试开发工程师\n\n\n2016.10 – 2023.05 · 自动化测试 / 平台工具\n\n负责 5G 相关协议解析、自动化测试平台与效率工具开发，覆盖 Python、C++、Shell、Lua 等多种技术栈。\n\n\n\n杭州格菱科技有限公司 · Python 开发\n\n\n2014.12 – 2016.10 · 电商云平台\n\n参与电商云平台后台与数据采集系统开发。"
+    "text": "工作经历\n\n\n\n杭州克雷登工业 · AI 应用工程师\n\n\n2024.11 – 至今\n\n\n\n负责后端设计与开发，采用 Pydantic + FastAPI，确保系统高效稳定。\n\n\n设计开发智能问答系统，专注于 Prompt 工程及 RAG 技术选型实践。\n\n\n开发缺陷检测机器学习算法，结合大模型应用进行工程化实践。\n\n\n负责 Azure 云平台系统（后端、Function Calling、ML）的工程化部署与性能优化。\n\n\n\n\n\n杭州人本集团 · Python 后端开发\n\n\n2024.08 – 2024.10 · 数字化 MES 平台\n\n\n\n负责智能化数字化 MES 平台后台模块的技术规划。\n\n\n负责业务逻辑编码实现（Django），设计异步 Celery 任务与 MariaDB 数据库结构。\n\n\n参与 API 接口设计与评审，编写技术文档与接口规范。\n\n\n\n\n\n诺基亚通信技术有限公司 · 测试开发工程师\n\n\n2016.10 – 2023.05\n\n\n\n自动化测试：基于 RobotFramework (灰盒) 和 TTCN-3 语言的测试项目。\n\n\n软件开发：参与 C++ 软件开发与测试。\n\n\n工具开发：基于 Python、Shell、Lua 开发自动化测试与平台工具。\n\n\nDevOps 实践：使用 Jenkins、GitLab CI、Docker 等工具优化交付流程。\n\n\n\n\n\n杭州格菱科技有限公司 · Python 开发\n\n\n2014.12 – 2016.10 · 电商云平台\n\n\n\n基于 Python Django 搭建数据云平台。\n\n\n负责爬虫数据采集与处理。\n\n\n\n\n\n西子优迈 · 软件开发工程师\n\n\n2010.07 – 2014.09 · 新标准扶梯项目\n\n\n\n负责基于 PLC、MCU、ARM、DSP 的逻辑软件编程（C、ASM 汇编）。\n\n\n负责开发板和嵌入式系统的测试工装制作与维护，以及安全电子系统认证。\n\n\n提供先锋产品技术指导，收集并解决工地现场问题。\n\n\n主要业绩：完成安全电子系统 SIL 2 认证；完成国内新国标自动扶梯首批产品的发布。"
   },
   {
     "objectID": "index.html#教育与证书",
@@ -116,14 +123,14 @@
     "href": "index.html#志愿与社区",
     "title": "江斌",
     "section": "志愿与社区",
-    "text": "志愿与社区\n\n西湖创客汇创客导师（2015.06 – 2017.05）\n\n服务 1000+ 青年创客社区，分享技术经验，指导项目开发。\n组织并主持多场技术工作坊和黑客马拉松活动。\n\n1566 创客公益基金爱心大使\n\n作为核心成员，为有潜力的创客项目提供公益基金与技术支持。\n参与项目评审，帮助筛选和培养有社会价值的创新项目。"
+    "text": "志愿与社区\n\n\n\n西湖创客汇 · 创客导师\n\n\n2015.06 – 2017.05\n\n服务 1000+ 青年创客社区，分享技术经验，指导项目开发；组织并主持多场技术工作坊和黑客马拉松活动。\n\n\n\n1566 创客公益基金 · 爱心大使\n\n\n核心成员\n\n作为核心成员，为有潜力的创客项目提供公益基金与技术支持；参与项目评审，帮助筛选和培养有社会价值的创新项目。"
   },
   {
     "objectID": "index.html#联系我",
     "href": "index.html#联系我",
     "title": "江斌",
     "section": "联系我",
-    "text": "联系我\n欢迎就 Python / AI 应用工程化 / RAG 系统 / 工业智能化等方向进行交流或合作。\n\n手机：15057134823\n邮箱：jiangbingo@hotmail.com\nGitHub：github.com/jiangbingo\n所在城市：杭州"
+    "text": "联系我\n\n\n欢迎就 Python / AI 应用工程化 / RAG 系统 / 工业智能化等方向进行交流或合作。\n\n邮箱：jiangbingo@hotmail.com\nGitHub：github.com/jiangbingo\n所在城市：杭州 / 武汉"
   },
   {
     "objectID": "posts/rag-backend-fastapi/index.html",
