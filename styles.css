@@ -1,76 +1,133 @@
 /* Custom styles for Jiang Bin's Portfolio */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-    /* Elegant Color Palette */
-    --primary-color: #0f172a;
-    /* Slate 900 - Deep, professional dark blue */
-    --accent-color: #3b82f6;
-    /* Blue 500 - Vibrant accent */
-    --text-color: #334155;
-    /* Slate 700 - Softer than pure black */
-    --bg-color: #f8fafc;
-    /* Slate 50 - Very light cool gray */
+    /* Modern Color Palette - Slate & Indigo */
+    --primary-bg: #f8fafc;
     --card-bg: #ffffff;
-    --card-border: #e2e8f0;
-    /* Slate 200 */
-    --heading-color: #0f172a;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --accent-color: #4f46e5;
+    /* Indigo 600 */
+    --accent-hover: #4338ca;
+    /* Indigo 700 */
+    --border-color: #e2e8f0;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Radius */
+    --radius-lg: 1rem;
+    --radius-md: 0.5rem;
+    --radius-full: 9999px;
 }
 
 body {
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: var(--text-color);
-    line-height: 1.7;
-    background-color: var(--bg-color);
+    font-family: "Outfit", -apple-system, sans-serif;
+    color: var(--text-main);
+    background-color: var(--primary-bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
 
-/* Container Width Override */
+/* Container Override */
 @media (min-width: 1400px) {
     .container-fluid {
-        max-width: 1400px;
+        max-width: 1280px;
+        /* Slightly narrower for better readability */
         margin: 0 auto;
         padding-left: 2rem;
         padding-right: 2rem;
     }
 }
 
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-main);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #1e293b 0%, #4f46e5 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 1.875rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-hover);
+}
+
 /* Hero Section */
 .hero-section {
     margin-top: 4rem;
-    margin-bottom: 4rem;
-    align-items: center;
+    margin-bottom: 5rem;
     animation: fadeIn 0.8s ease-out;
 }
 
-.hero-sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .profile-image {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
+    border-radius: 2rem;
+    /* Squircle-ish */
     border: 4px solid #fff;
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    box-shadow: var(--shadow-lg);
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(2deg);
 }
 
 .hero-links {
     display: flex;
-    gap: 0.8rem;
-    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    border-radius: var(--radius-full);
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s;
 }
 
 .btn-outline-primary {
@@ -80,157 +137,154 @@ body {
 
 .btn-outline-primary:hover {
     background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    color: #fff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
 }
 
-/* Typography Overrides */
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: var(--heading-color);
-    font-weight: 800;
-    letter-spacing: -0.03em;
+.btn-outline-dark,
+.btn-outline-secondary {
+    border-color: var(--border-color);
+    color: var(--text-main);
 }
 
-h2 {
-    border-bottom: none;
-    position: relative;
-    padding-bottom: 0.5rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
-    font-size: 1.75rem;
-    font-weight: 700;
-}
-
-h2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 3rem;
-    height: 4px;
-    background: var(--accent-color);
-    border-radius: 2px;
-    transition: width 0.3s ease;
-}
-
-h2:hover::after {
-    width: 5rem;
-}
-
-/* Links */
-a {
-    color: var(--accent-color);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-a:hover {
-    color: #1d4ed8;
-    text-decoration: none;
+.btn-outline-dark:hover,
+.btn-outline-secondary:hover {
+    background-color: var(--text-main);
+    color: white;
+    transform: translateY(-2px);
 }
 
 /* Cards */
 .card {
     background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
     padding: 0;
     height: 100%;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    /* For hover effects */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
 }
 
 .card-body {
-    padding: 1.75rem;
+    padding: 2rem;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    border-color: #bfdbfe;
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(79, 70, 229, 0.3);
 }
 
 .card-title {
-    margin-top: 0;
     font-size: 1.25rem;
-    color: var(--heading-color);
-    margin-bottom: 0.75rem;
-    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-main);
 }
 
-.card ul {
+/* Skills List as Badges */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skills-list li {
+    background-color: #f1f5f9;
+    color: var(--text-main);
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.skills-list li:hover {
+    background-color: #e0e7ff;
+    color: var(--accent-color);
+}
+
+.skills-list li strong {
+    font-weight: 600;
+}
+
+/* Project Lists (Default inside cards but not skills) */
+.card ul:not(.skills-list) {
     padding-left: 1.2rem;
     margin-bottom: 0;
+    margin-top: 0.5rem;
 }
 
-.card li {
+.card ul:not(.skills-list) li {
     margin-bottom: 0.5rem;
-    color: #475569;
+    color: var(--text-muted);
+    font-size: 0.95rem;
 }
 
+/* Project Meta Tag */
 .project-meta {
     font-family: "JetBrains Mono", monospace;
-    font-size: 0.75rem;
-    color: #64748b;
-    background-color: #f1f5f9;
-    padding: 0.35rem 0.6rem;
-    border-radius: 0.375rem;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    background-color: #e0e7ff;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-full);
     display: inline-block;
     margin-bottom: 1rem;
-    border: 1px solid #e2e8f0;
+    font-weight: 500;
 }
 
 /* Timeline */
 .timeline {
-    margin-top: 1rem;
-    max-width: 100%;
+    margin-top: 2rem;
+    position: relative;
 }
 
 .timeline-item {
-    border-left: 2px solid #e2e8f0;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
+    border-left: 2px solid var(--border-color);
+    padding-left: 2.5rem;
+    padding-bottom: 3.5rem;
     position: relative;
 }
 
 .timeline-item:last-child {
-    border-left: 2px solid transparent;
+    border-left-color: transparent;
 }
 
 .timeline-item::before {
     content: "";
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     background: #fff;
-    border: 4px solid var(--accent-color);
+    border: 3px solid var(--accent-color);
     border-radius: 50%;
     position: absolute;
-    left: -9px;
-    top: 4px;
+    left: -8px;
+    top: 6px;
     transition: all 0.3s ease;
 }
 
 .timeline-item:hover::before {
     background: var(--accent-color);
-    transform: scale(1.2);
-    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+    transform: scale(1.3);
+    box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.15);
 }
 
 .timeline-title {
-    font-weight: 700;
-    font-size: 1.15rem;
-    color: var(--heading-color);
+    font-size: 1.25rem;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
 }
 
 .timeline-meta {
     font-family: "JetBrains Mono", monospace;
-    color: #64748b;
-    font-size: 0.85rem;
-    margin: 0.25rem 0 0.75rem 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 /* Animations */
@@ -246,11 +300,12 @@ a:hover {
     }
 }
 
-.card {
+.card,
+.timeline-item {
     animation: fadeIn 0.6s ease-out backwards;
 }
 
-/* Stagger animations for grid items */
+/* Stagger delays */
 .g-col-12:nth-child(1) .card {
     animation-delay: 0.1s;
 }
@@ -267,25 +322,24 @@ a:hover {
     animation-delay: 0.4s;
 }
 
-/* Spacing Utilities */
+/* Utilities */
 .my-5 {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-/* Mobile Adjustments */
+/* Mobile */
 @media (max-width: 768px) {
     .hero-section {
         text-align: center;
         margin-top: 2rem;
     }
 
-    h2::after {
-        left: 50%;
-        transform: translateX(-50%);
+    h1 {
+        font-size: 2.5rem;
     }
 
-    h2 {
-        text-align: center;
+    h2::after {
+        margin: 0.5rem auto 0;
     }
 }

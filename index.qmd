@@ -50,7 +50,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">AI / 大模型 & RAG</h3>
-<ul>
+<ul class="skills-list">
 <li><strong>RAG 检索增强</strong>：文档解析、向量检索（Milvus 等）</li>
 <li><strong>Prompt Engineering</strong>：多轮对话、工具调用</li>
 <li><strong>缺陷检测大模型应用</strong>：专用视觉检测模型 + 通用 LLM 协同</li>
@@ -64,7 +64,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">后端开发 & 数据</h3>
-<ul>
+<ul class="skills-list">
 <li><strong>Languages</strong>: Python (FastAPI, Django, Flask), <strong>C++</strong></li>
 <li><strong>Async</strong>: Celery, RabbitMQ, WebSocket</li>
 <li><strong>DB</strong>: MariaDB, MySQL, Milvus, <strong>PostgreSQL</strong></li>
@@ -78,7 +78,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">云原生 & 工程化</h3>
-<ul>
+<ul class="skills-list">
 <li><strong>Azure</strong>: Function, ML Service, Serverless</li>
 <li><strong>DevOps</strong>: Jenkins, GitLab CI, Docker, JIRA</li>
 <li><strong>Test</strong>: RobotFramework, <strong>pytest</strong>, <strong>unittest</strong></li>
