@@ -1,0 +1,219 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.grid .hero-section}
+
+::: {.g-col-12 .g-col-md-4 .g-col-lg-3 .text-center .hero-sidebar}
+# 江斌
+
+<!-- <img src="assets/avatar.png" class="profile-image" /> -->
+<img src="assets/avatar.jpg" class="profile-image" />
+
+<div class="hero-links">
+  <a href="江斌-Python.pdf" class="btn btn-outline-primary btn-sm" role="button">
+    <i class="bi bi-file-text"></i> Resume PDF
+  </a>
+  <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
+    <i class="bi bi-github"></i> Github
+  </a>
+  <a href="mailto:jiangbingo@hotmail.com" class="btn btn-outline-secondary btn-sm" role="button">
+    <i class="bi bi-envelope"></i> Email
+  </a>
+</div>
+
+:::
+
+::: {.g-col-12 .g-col-md-8 .g-col-lg-9}
+
+## 个人简介
+
+**AI 应用工程师 / Python 后端开发工程师**
+
+我是一名来自杭州的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。
+
+近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。
+
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## 技能栈
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">AI / 大模型 & RAG</h3>
+<ul>
+<li><strong>RAG 检索增强</strong>：文档解析、向量检索（Milvus 等）</li>
+<li><strong>Prompt Engineering</strong>：多轮对话、工具调用</li>
+<li><strong>缺陷检测大模型应用</strong>：专用视觉检测模型 + 通用 LLM 协同</li>
+<li><strong>LLM Function Calling</strong>：与工作流编排</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">后端开发 & 数据</h3>
+<ul>
+<li><strong>Python</strong>: FastAPI, Django, Flask</li>
+<li><strong>Async</strong>: Celery, RabbitMQ, WebSocket</li>
+<li><strong>DB</strong>: MariaDB, MySQL, Milvus</li>
+<li><strong>Data</strong>: Scrapy, Pandas</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">云原生 & 工程化</h3>
+<ul>
+<li><strong>Azure</strong>: Function, ML Service</li>
+<li><strong>DevOps</strong>: Jenkins, GitLab CI, Docker</li>
+<li><strong>Test</strong>: RobotFramework</li>
+<li><strong>Embedded</strong>: C / Assembly</li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## 代表项目
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">缺陷检测大模型应用平台</h3>
+<div class="project-meta">2025.04 – 至今 · 工业缺陷检测 · FastAPI / Azure / ML</div>
+<ul>
+<li>搭建缺陷检测系统后端，融合专用视觉模型与通用大模型，支持在线缺陷识别与判定。</li>
+<li>设计 FastAPI 接口与 Pydantic 数据模型，路由 RESTful 化，结构清晰易扩展。</li>
+<li>实现 Function Calling 与 ML 模型工程化部署，支持本地与云上双环境。</li>
+<li>通过异步队列与 WebSocket 提升系统吞吐与用户体验。</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">RAG 智能问答系统</h3>
+<div class="project-meta">2024.11 – 2025.04 · 企业知识库 · RAG / Milvus</div>
+<ul>
+<li>负责后端架构、编码、部署的全流程工作，项目已完成预期功能开发并预上线。</li>
+<li>选型并实现 RAG 检索增强方案，支持复杂文档与多轮问答。</li>
+<li>使用 Milvus 设计向量数据库结构，优化召回速度与精度。</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">NOKIA 5G 3GPP 协议解析器</h3>
+<div class="project-meta">2016 – 2022 · 通信协议 · Python / 文档解析</div>
+<ul>
+<li>针对超大体量、复杂表格结构的 3GPP Word 文档，开发自动化解析器。</li>
+<li>自动识别文本、表格与格式错误并部分纠错，输出结构化数据与日志。</li>
+<li>显著降低人工解析成本，提升协议数据处理的准确性与效率。</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">自动化测试与效率工具合集</h3>
+<div class="project-meta">2017 – 2020 · NOKIA · Python / Shell / SQL</div>
+<ul>
+<li>云平台测试环境一键预定工具：为团队节省约 1 小时/人/天，获 Tribe 年度 TOP3。</li>
+<li>Sleeping Cell 检测与复位工具：基于 SQL + Shell，支撑数十万台 BTS 的问题排查，获 Tribe 年度 TOP10。</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">电商云平台后台（开源 Demo）</h3>
+<div class="project-meta">2015 – 2016 · 电商平台 · Django / 爬虫</div>
+<ul>
+<li>构建电商数据中心后台模块，使用 Django 实现管理后台。</li>
+<li>编写网络爬虫采集并整理 20G 级别电商数据。</li>
+<li>项目代码开源：<a href="https://github.com/jiangbingo/backend" target="_blank">github.com/jiangbingo/backend</a></li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## 工作经历
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-title">杭州克雷登工业 · AI 应用工程师</div>
+<div class="timeline-meta">2024.11 – 至今 · 工业 AI / 缺陷检测 / FastAPI</div>
+负责 AI 知识库与智能问答系统的设计与开发，推进 RAG 检索增强与大模型应用工程化。
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">杭州人本集团 · Python 后端开发</div>
+<div class="timeline-meta">2024.08 – 2024.10 · 数字化 MES 平台</div>
+负责 MES 平台后台模块技术规划与 Django 后台开发，设计异步 Celery 任务与数据库结构。
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">诺基亚通信技术有限公司 · 测试开发工程师</div>
+<div class="timeline-meta">2016.10 – 2023.05 · 自动化测试 / 平台工具</div>
+负责 5G 相关协议解析、自动化测试平台与效率工具开发，覆盖 Python、C++、Shell、Lua 等多种技术栈。
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">杭州格菱科技有限公司 · Python 开发</div>
+<div class="timeline-meta">2014.12 – 2016.10 · 电商云平台</div>
+参与电商云平台后台与数据采集系统开发。
+</div>
+
+</div>
+
+<div class="my-5"></div>
+
+## 教育与证书
+
+- **中南民族大学** · 本科 · 电子信息工程类 – 生物医学工程 · 2005 – 2010
+- 大学英语六级
+
+<div class="my-5"></div>
+
+## 联系我
+
+欢迎就 Python / AI 应用工程化 / RAG 系统 / 工业智能化等方向进行交流或合作。
+
+- **手机**：15057134823
+- **邮箱**：[jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
+- **GitHub**：[github.com/jiangbingo](https://github.com/jiangbingo)
+- **所在城市**：杭州

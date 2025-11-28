@@ -1,0 +1,218 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.grid .hero-section}
+
+::: {.g-col-12 .g-col-md-4 .g-col-lg-3 .text-center .hero-sidebar}
+# Jiang Bin
+
+<img src="assets/avatar.jpg" class="profile-image" />
+
+<div class="hero-links">
+  <a href="江斌-Python.pdf" class="btn btn-outline-primary btn-sm" role="button">
+    <i class="bi bi-file-text"></i> Resume PDF
+  </a>
+  <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
+    <i class="bi bi-github"></i> Github
+  </a>
+  <a href="mailto:jiangbingo@hotmail.com" class="btn btn-outline-secondary btn-sm" role="button">
+    <i class="bi bi-envelope"></i> Email
+  </a>
+</div>
+
+:::
+
+::: {.g-col-12 .g-col-md-8 .g-col-lg-9}
+
+## About Me
+
+**AI Application Engineer / Python Backend Developer**
+
+I am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.
+
+In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations.
+
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## Skills
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">AI / LLM & RAG</h3>
+<ul>
+<li><strong>RAG</strong>: Document parsing, Vector retrieval (Milvus, etc.)</li>
+<li><strong>Prompt Engineering</strong>: Multi-turn dialogue, Tool calling</li>
+<li><strong>Defect Detection LLM</strong>: Specialized visual models + General LLM collaboration</li>
+<li><strong>LLM Function Calling</strong>: Workflow orchestration</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Backend & Data</h3>
+<ul>
+<li><strong>Python</strong>: FastAPI, Django, Flask</li>
+<li><strong>Async</strong>: Celery, RabbitMQ, WebSocket</li>
+<li><strong>DB</strong>: MariaDB, MySQL, Milvus</li>
+<li><strong>Data</strong>: Scrapy, Pandas</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Cloud Native & Engineering</h3>
+<ul>
+<li><strong>Azure</strong>: Function, ML Service</li>
+<li><strong>DevOps</strong>: Jenkins, GitLab CI, Docker</li>
+<li><strong>Test</strong>: RobotFramework</li>
+<li><strong>Embedded</strong>: C / Assembly</li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## Projects
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Defect Detection LLM Platform</h3>
+<div class="project-meta">2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML</div>
+<ul>
+<li>Built the backend for a defect detection system, integrating specialized visual models with general LLMs for online defect identification.</li>
+<li>Designed FastAPI interfaces and Pydantic data models, RESTful routing, clear and extensible structure.</li>
+<li>Implemented Function Calling and ML model engineering deployment, supporting both local and cloud environments.</li>
+<li>Improved system throughput and user experience via asynchronous queues and WebSockets.</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">RAG Intelligent Q&A System</h3>
+<div class="project-meta">2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus</div>
+<ul>
+<li>Responsible for the full process of backend architecture, coding, and deployment; project functionality completed and pre-launched.</li>
+<li>Selected and implemented RAG solutions, supporting complex documents and multi-turn Q&A.</li>
+<li>Designed vector database structure using Milvus, optimizing recall speed and accuracy.</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">NOKIA 5G 3GPP Protocol Parser</h3>
+<div class="project-meta">2016 – 2022 · Telecom Protocol · Python / Document Parsing</div>
+<ul>
+<li>Developed an automated parser for massive, complex 3GPP Word documents.</li>
+<li>Automatically identified text, table, and format errors with partial correction, outputting structured data and logs.</li>
+<li>Significantly reduced manual parsing costs and improved data accuracy and efficiency.</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Automation Test & Efficiency Tools</h3>
+<div class="project-meta">2017 – 2020 · NOKIA · Python / Shell / SQL</div>
+<ul>
+<li>Cloud test environment reservation tool: Saved ~1 hour/person/day, won Tribe Annual TOP3.</li>
+<li>Sleeping Cell detection & reset tool: Based on SQL + Shell, supported troubleshooting for hundreds of thousands of BTS, won Tribe Annual TOP10.</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Ecommerce Cloud Platform Backend (Open Source)</h3>
+<div class="project-meta">2015 – 2016 · Ecommerce · Django / Crawler</div>
+<ul>
+<li>Built the backend module for an ecommerce data center using Django.</li>
+<li>Wrote web crawlers to collect and organize 20G+ of ecommerce data.</li>
+<li>Open Source: <a href="https://github.com/jiangbingo/backend" target="_blank">github.com/jiangbingo/backend</a></li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## Experience
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou Clayton Industries · AI Application Engineer</div>
+<div class="timeline-meta">2024.11 – Present · Industrial AI / Defect Detection / FastAPI</div>
+Responsible for the design and development of AI knowledge bases and intelligent Q&A systems, advancing RAG and LLM application engineering.
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou C&U Group · Python Backend Developer</div>
+<div class="timeline-meta">2024.08 – 2024.10 · Digital MES Platform</div>
+Responsible for technical planning of the MES platform backend module and Django backend development, designing asynchronous Celery tasks and database structures.
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Nokia Solutions and Networks · Test Development Engineer</div>
+<div class="timeline-meta">2016.10 – 2023.05 · Automation Testing / Platform Tools</div>
+Responsible for 5G protocol parsing, automation testing platforms, and efficiency tool development, covering Python, C++, Shell, Lua, etc.
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou Geling Technology · Python Developer</div>
+<div class="timeline-meta">2014.12 – 2016.10 · Ecommerce Cloud Platform</div>
+Participated in the development of the ecommerce cloud platform backend and data collection system.
+</div>
+
+</div>
+
+<div class="my-5"></div>
+
+## Education
+
+- **South-Central Minzu University** · Bachelor · Biomedical Engineering · 2005 – 2010
+- CET-6
+
+<div class="my-5"></div>
+
+## Contact Me
+
+Welcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.
+
+- **Mobile**: 15057134823
+- **Email**: [jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
+- **GitHub**: [github.com/jiangbingo](https://github.com/jiangbingo)
+- **Location**: Hangzhou, China
