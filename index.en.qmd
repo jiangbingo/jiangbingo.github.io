@@ -31,7 +31,7 @@ toc: false
 
 **AI Application Engineer / Python Backend Developer**
 
-I am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.
+I am an AI Application Engineer / Python Backend Developer based in Hangzhou / Wuhan, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.
 
 In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations.
 
@@ -64,9 +64,9 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <div class="card-body">
 <h3 class="card-title">Backend & Data</h3>
 <ul>
-<li><strong>Python</strong>: FastAPI, Django, Flask</li>
+<li><strong>Languages</strong>: Python (FastAPI, Django, Flask), <strong>C++</strong></li>
 <li><strong>Async</strong>: Celery, RabbitMQ, WebSocket</li>
-<li><strong>DB</strong>: MariaDB, MySQL, Milvus</li>
+<li><strong>DB</strong>: MariaDB, MySQL, Milvus, <strong>PostgreSQL</strong></li>
 <li><strong>Data</strong>: Scrapy, Pandas</li>
 </ul>
 </div>
@@ -78,10 +78,10 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <div class="card-body">
 <h3 class="card-title">Cloud Native & Engineering</h3>
 <ul>
-<li><strong>Azure</strong>: Function, ML Service</li>
-<li><strong>DevOps</strong>: Jenkins, GitLab CI, Docker</li>
-<li><strong>Test</strong>: RobotFramework</li>
-<li><strong>Embedded</strong>: C / Assembly</li>
+<li><strong>Azure</strong>: Function, ML Service, Serverless</li>
+<li><strong>DevOps</strong>: Jenkins, GitLab CI, Docker, JIRA</li>
+<li><strong>Test</strong>: RobotFramework, <strong>pytest</strong>, <strong>unittest</strong></li>
+<li><strong>Embedded</strong>: C / Assembly (MCU, ARM, DSP)</li>
 </ul>
 </div>
 </div>
@@ -101,10 +101,10 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <h3 class="card-title">Defect Detection LLM Platform</h3>
 <div class="project-meta">2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML</div>
 <ul>
-<li>Built the backend for a defect detection system, integrating specialized visual models with general LLMs for online defect identification.</li>
-<li>Designed FastAPI interfaces and Pydantic data models, RESTful routing, clear and extensible structure.</li>
-<li>Implemented Function Calling and ML model engineering deployment, supporting both local and cloud environments.</li>
-<li>Improved system throughput and user experience via asynchronous queues and WebSockets.</li>
+<li><strong>Backend Arch</strong>: Built backend for defect detection system, integrating visual models & LLMs for online identification.</li>
+<li><strong>API Design</strong>: Designed RESTful APIs using FastAPI & Pydantic models for high efficiency and stability.</li>
+<li><strong>Engineering</strong>: Implemented Function Calling & ML model deployment (Local/Cloud), optimizing resource allocation.</li>
+<li><strong>Performance</strong>: Designed RabbitMQ async queues & WebSocket communication to boost throughput and UX.</li>
 </ul>
 </div>
 </div>
@@ -116,9 +116,9 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <h3 class="card-title">RAG Intelligent Q&A System</h3>
 <div class="project-meta">2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus</div>
 <ul>
-<li>Responsible for the full process of backend architecture, coding, and deployment; project functionality completed and pre-launched.</li>
-<li>Selected and implemented RAG solutions, supporting complex documents and multi-turn Q&A.</li>
-<li>Designed vector database structure using Milvus, optimizing recall speed and accuracy.</li>
+<li><strong>Full Stack</strong>: Responsible for backend architecture, coding, workflow, and deployment (Pre-launched).</li>
+<li><strong>Core Tech</strong>: Led AI knowledge base construction, Prompt Engineering, and RAG development.</li>
+<li><strong>Data Opt</strong>: Designed Milvus vector database structure, significantly improving retrieval efficiency and accuracy.</li>
 </ul>
 </div>
 </div>
@@ -128,10 +128,10 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">NOKIA 5G 3GPP Protocol Parser</h3>
-<div class="project-meta">2016 – 2022 · Telecom Protocol · Python / Document Parsing</div>
+<div class="project-meta">2022.08 – 2022.10 · Telecom Protocol · Python / Document Parsing</div>
 <ul>
-<li>Developed an automated parser for massive, complex 3GPP Word documents.</li>
-<li>Automatically identified text, table, and format errors with partial correction, outputting structured data and logs.</li>
+<li>Developed automated parser for massive 3GPP Word docs (multi-dimensional tables, unstructured data).</li>
+<li>Automated identification of text/table/format errors with partial correction, outputting structured data & logs.</li>
 <li>Significantly reduced manual parsing costs and improved data accuracy and efficiency.</li>
 </ul>
 </div>
@@ -144,8 +144,9 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 <h3 class="card-title">Automation Test & Efficiency Tools</h3>
 <div class="project-meta">2017 – 2020 · NOKIA · Python / Shell / SQL</div>
 <ul>
-<li>Cloud test environment reservation tool: Saved ~1 hour/person/day, won Tribe Annual TOP3.</li>
-<li>Sleeping Cell detection & reset tool: Based on SQL + Shell, supported troubleshooting for hundreds of thousands of BTS, won Tribe Annual TOP10.</li>
+<li><strong>Cloud Reservation Tool</strong>: Automated test environment reservation, saved 1h/person/day (Tribe Top 3).</li>
+<li><strong>Sleeping Cell Tool</strong>: SQL+Shell based detection/reset for 100k+ BTS (Tribe Top 10).</li>
+<li>Developed various efficiency tools (Crawler, Selenium, Shell) to enhance team collaboration.</li>
 </ul>
 </div>
 </div>
@@ -175,41 +176,53 @@ In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems
 
 <div class="timeline-item">
 <div class="timeline-title">Hangzhou Clayton Industries · AI Application Engineer</div>
-<div class="timeline-meta">2024.11 – Present · Industrial AI / Defect Detection / FastAPI</div>
-Responsible for the design and development of AI knowledge bases and intelligent Q&A systems, advancing RAG and LLM application engineering.
+<div class="timeline-meta">2024.11 – Present</div>
+<ul>
+<li>Responsible for backend design & dev using Pydantic + FastAPI, ensuring system stability.</li>
+<li>Designed intelligent Q&A system, focusing on Prompt Engineering & RAG technology selection.</li>
+<li>Developed defect detection ML algorithms and engineered LLM applications.</li>
+<li>Responsible for Azure cloud system engineering (Backend, Function Calling, ML) and performance optimization.</li>
+</ul>
 </div>
 
 <div class="timeline-item">
 <div class="timeline-title">Hangzhou C&U Group · Python Backend Developer</div>
 <div class="timeline-meta">2024.08 – 2024.10 · Digital MES Platform</div>
-Responsible for technical planning of the MES platform backend module and Django backend development, designing asynchronous Celery tasks and database structures.
+<ul>
+<li>Responsible for technical planning of the MES platform backend module.</li>
+<li>Implemented business logic (Django), designed async Celery tasks & MariaDB structure.</li>
+<li>Participated in API design & review, wrote technical documentation & interface standards.</li>
+</ul>
 </div>
 
 <div class="timeline-item">
 <div class="timeline-title">Nokia Solutions and Networks · Test Development Engineer</div>
-<div class="timeline-meta">2016.10 – 2023.05 · Automation Testing / Platform Tools</div>
-Responsible for 5G protocol parsing, automation testing platforms, and efficiency tool development, covering Python, C++, Shell, Lua, etc.
+<div class="timeline-meta">2016.10 – 2023.05</div>
+<ul>
+<li><strong>Automation Test</strong>: Projects based on RobotFramework (Grey-box) and TTCN-3.</li>
+<li><strong>Software Dev</strong>: Participated in C++ software development and testing.</li>
+<li><strong>Tool Dev</strong>: Developed automation & platform tools using Python, Shell, Lua.</li>
+<li><strong>DevOps</strong>: Practiced CI/CD using Jenkins, GitLab CI, Docker, etc.</li>
+</ul>
 </div>
 
 <div class="timeline-item">
 <div class="timeline-title">Hangzhou Geling Technology · Python Developer</div>
 <div class="timeline-meta">2014.12 – 2016.10 · Ecommerce Cloud Platform</div>
-Participated in the development of the ecommerce cloud platform backend and data collection system.
+<ul>
+<li>Built data cloud platform based on Python Django.</li>
+<li>Responsible for web crawler data collection and processing.</li>
+</ul>
 </div>
 
 <div class="timeline-item">
 <div class="timeline-title">Xizi YOUMY · Software Development Engineer</div>
-<div class="timeline-meta">2011.04 – 2014.09 · New Standard Escalator Project</div>
+<div class="timeline-meta">2010.07 – 2014.09 · New Standard Escalator Project</div>
 <ul>
-<li>Logic software programming based on PLC, MCU, ARM, DSP (C, ASM Assembly)</li>
-<li>Hardware/software production and maintenance of test fixtures for development boards and embedded systems</li>
-<li>Certification of safety electronic systems</li>
-<li>Technical guidance for pioneer products, on-site problem collection and resolution</li>
-</ul>
-**Achievements:**
-<ul>
-<li>Completed SIL 2 certification for safety electronic systems</li>
-<li>Completed the release of the first batch of products under the new national standard for escalators</li>
+<li>Responsible for logic software programming based on PLC, MCU, ARM, DSP (C/ASM).</li>
+<li>Developed and maintained test fixtures for embedded systems; conducted safety system certification.</li>
+<li>Provided technical guidance for pioneer products and resolved on-site issues.</li>
+<li><strong>Achievements</strong>: Completed SIL 2 certification; released the first batch of new national standard escalators.</li>
 </ul>
 </div>
 
@@ -226,16 +239,38 @@ Participated in the development of the ecommerce cloud platform backend and data
 
 ## Volunteer & Community
 
-- **West Lake Maker Space Mentor** (2015.06 – 2017.05): Served a community of 1000+ young makers.
-- **1566 Maker Charity Fund Ambassador**: Provided charity funds and technical support for maker projects.
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-title">West Lake Maker Space · Mentor</div>
+<div class="timeline-meta">2015.06 – 2017.05</div>
+Served a community of 1000+ young makers, sharing technical experience and guiding project development; organized and hosted multiple technical workshops and hackathons.
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">1566 Maker Charity Fund · Ambassador</div>
+<div class="timeline-meta">Core Member</div>
+Provided charity funds and technical support for potential maker projects; participated in project reviews to help select and cultivate innovative projects with social value.
+</div>
+
+</div>
 
 <div class="my-5"></div>
 
 ## Contact Me
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
 Welcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.
 
-- **Mobile**: 15057134823
 - **Email**: [jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
 - **GitHub**: [github.com/jiangbingo](https://github.com/jiangbingo)
-- **Location**: Hangzhou, China
+- **Location**: Hangzhou / Wuhan, China
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<img src="assets/wechat.jpg" style="width: 100%; max-width: 180px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="WeChat QR Code">
+:::
+
+:::

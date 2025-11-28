@@ -28,11 +28,17 @@
 quarto preview
 ```
 
-### 2. 自动化部署 (GitHub Pages)
+### 2. 自动化部署 (GitHub Actions)
 本项目已配置 GitHub Actions 自动部署。
-1.  将代码推送到 GitHub 的 `master` 分支。
-2.  GitHub Actions 会自动构建并发布到 `gh-pages` 分支。
-3.  在 GitHub 仓库设置 -> Pages 中，确保 Source 选择 `Deploy from a branch`，分支选择 `gh-pages` / `(root)`。
+1.  **提交代码**：将代码推送到 GitHub 的 `master` 分支。
+    ```bash
+    git add .
+    git commit -m "update content"
+    git push origin master
+    ```
+2.  **自动构建**：GitHub Actions 会自动检测更新，构建静态网站，并发布到 `gh-pages` 分支。
+3.  **查看效果**：等待约 1-2 分钟，访问 [jiangbingo.github.io](https://jiangbingo.github.io) 即可。
+    *   *注意：如果看不到更新，请尝试强制刷新浏览器 (Ctrl+F5)*。
 
 ## 📝 内容编辑指南
 
