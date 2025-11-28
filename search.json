@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Technical Blog",
+    "section": "",
+    "text": "Hello Quarto: 为什么我选择它作为技术博客方案\n\n\n\nQuarto\n\nBlogging\n\nPython\n\n\n\n从 Hugo 到 Hexo，再到最终选择 Quarto，聊聊我的博客折腾史以及 Quarto 的独特优势。\n\n\n\n\n\nNov 28, 2024\n\n\nJiang Bin\n\n\n\n\n\n\n\n\n\n\n\n\n从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）\n\n\n\nRAG\n\nFastAPI\n\nMilvus\n\nAI\n\n\n\n结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。\n\n\n\n\n\nNov 27, 2024\n\n\nJiang Bin\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.en.html",
+    "href": "index.en.html",
+    "title": "Jiang Bin",
+    "section": "",
+    "text": "Resume PDF    Github    Email \n\n\n\n\nAI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
+  },
+  {
+    "objectID": "index.en.html#about-me",
+    "href": "index.en.html#about-me",
+    "title": "Jiang Bin",
+    "section": "",
+    "text": "AI Application Engineer / Python Backend Developer\nI am an AI Application Engineer / Python Backend Developer based in Hangzhou, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.\nIn recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations."
+  },
+  {
+    "objectID": "index.en.html#skills",
+    "href": "index.en.html#skills",
+    "title": "Jiang Bin",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n\n\nAI / LLM & RAG\n\n\n\nRAG: Document parsing, Vector retrieval (Milvus, etc.)\n\n\nPrompt Engineering: Multi-turn dialogue, Tool calling\n\n\nDefect Detection LLM: Specialized visual models + General LLM collaboration\n\n\nLLM Function Calling: Workflow orchestration\n\n\n\n\n\n\n\n\n\nBackend & Data\n\n\n\nPython: FastAPI, Django, Flask\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\nCloud Native & Engineering\n\n\n\nAzure: Function, ML Service\n\n\nDevOps: Jenkins, GitLab CI, Docker\n\n\nTest: RobotFramework\n\n\nEmbedded: C / Assembly"
+  },
+  {
+    "objectID": "index.en.html#projects",
+    "href": "index.en.html#projects",
+    "title": "Jiang Bin",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\nDefect Detection LLM Platform\n\n\n2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML\n\n\n\nBuilt the backend for a defect detection system, integrating specialized visual models with general LLMs for online defect identification.\n\n\nDesigned FastAPI interfaces and Pydantic data models, RESTful routing, clear and extensible structure.\n\n\nImplemented Function Calling and ML model engineering deployment, supporting both local and cloud environments.\n\n\nImproved system throughput and user experience via asynchronous queues and WebSockets.\n\n\n\n\n\n\n\n\n\nRAG Intelligent Q&A System\n\n\n2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus\n\n\n\nResponsible for the full process of backend architecture, coding, and deployment; project functionality completed and pre-launched.\n\n\nSelected and implemented RAG solutions, supporting complex documents and multi-turn Q&A.\n\n\nDesigned vector database structure using Milvus, optimizing recall speed and accuracy.\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP Protocol Parser\n\n\n2016 – 2022 · Telecom Protocol · Python / Document Parsing\n\n\n\nDeveloped an automated parser for massive, complex 3GPP Word documents.\n\n\nAutomatically identified text, table, and format errors with partial correction, outputting structured data and logs.\n\n\nSignificantly reduced manual parsing costs and improved data accuracy and efficiency.\n\n\n\n\n\n\n\n\n\nAutomation Test & Efficiency Tools\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\nCloud test environment reservation tool: Saved ~1 hour/person/day, won Tribe Annual TOP3.\n\n\nSleeping Cell detection & reset tool: Based on SQL + Shell, supported troubleshooting for hundreds of thousands of BTS, won Tribe Annual TOP10.\n\n\n\n\n\n\n\n\n\nEcommerce Cloud Platform Backend (Open Source)\n\n\n2015 – 2016 · Ecommerce · Django / Crawler\n\n\n\nBuilt the backend module for an ecommerce data center using Django.\n\n\nWrote web crawlers to collect and organize 20G+ of ecommerce data.\n\n\nOpen Source: github.com/jiangbingo/backend"
+  },
+  {
+    "objectID": "index.en.html#experience",
+    "href": "index.en.html#experience",
+    "title": "Jiang Bin",
+    "section": "Experience",
+    "text": "Experience\n\n\n\nHangzhou Clayton Industries · AI Application Engineer\n\n\n2024.11 – Present · Industrial AI / Defect Detection / FastAPI\n\nResponsible for the design and development of AI knowledge bases and intelligent Q&A systems, advancing RAG and LLM application engineering.\n\n\n\nHangzhou C&U Group · Python Backend Developer\n\n\n2024.08 – 2024.10 · Digital MES Platform\n\nResponsible for technical planning of the MES platform backend module and Django backend development, designing asynchronous Celery tasks and database structures.\n\n\n\nNokia Solutions and Networks · Test Development Engineer\n\n\n2016.10 – 2023.05 · Automation Testing / Platform Tools\n\nResponsible for 5G protocol parsing, automation testing platforms, and efficiency tool development, covering Python, C++, Shell, Lua, etc.\n\n\n\nHangzhou Geling Technology · Python Developer\n\n\n2014.12 – 2016.10 · Ecommerce Cloud Platform\n\nParticipated in the development of the ecommerce cloud platform backend and data collection system."
+  },
+  {
+    "objectID": "index.en.html#education",
+    "href": "index.en.html#education",
+    "title": "Jiang Bin",
+    "section": "Education",
+    "text": "Education\n\nSouth-Central Minzu University · Bachelor · Biomedical Engineering · 2005 – 2010\nCET-6"
+  },
+  {
+    "objectID": "index.en.html#contact-me",
+    "href": "index.en.html#contact-me",
+    "title": "Jiang Bin",
+    "section": "Contact Me",
+    "text": "Contact Me\nWelcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.\n\nMobile: 15057134823\nEmail: jiangbingo@hotmail.com\nGitHub: github.com/jiangbingo\nLocation: Hangzhou, China"
+  },
+  {
+    "objectID": "posts/hello-quarto/index.html",
+    "href": "posts/hello-quarto/index.html",
+    "title": "Hello Quarto: 为什么我选择它作为技术博客方案",
+    "section": "",
+    "text": "作为一个 Python 开发者，我一直在寻找一个既能写技术文档，又能优雅展示代码（尤其是 Jupyter Notebook）的博客工具。\n\n\nQuarto 最吸引我的点在于它对 .ipynb 的原生支持。以前写数据分析的文章，需要先把 Notebook 导出为 Markdown，图片还得手动处理。现在直接把 .ipynb 扔进 posts/ 目录，Quarto 就能自动渲染，连交互式图表都能保留！\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave generated by Python\")\nplt.show()\n\n\n\n相比于 Hugo 复杂的模板语法，Quarto 的配置主要集中在 _quarto.yml 和 Markdown 头部（YAML Front Matter），非常直观。\n\n\n\nQuarto 源自 RStudio 团队，天生带有学术基因。无论是公式支持、参考文献管理，还是侧边栏目录，都处理得非常专业。\n\\[\nE = mc^2\n\\]"
+  },
+  {
+    "objectID": "posts/hello-quarto/index.html#为什么是-quarto",
+    "href": "posts/hello-quarto/index.html#为什么是-quarto",
+    "title": "Hello Quarto: 为什么我选择它作为技术博客方案",
+    "section": "",
+    "text": "作为一个 Python 开发者，我一直在寻找一个既能写技术文档，又能优雅展示代码（尤其是 Jupyter Notebook）的博客工具。\n\n\nQuarto 最吸引我的点在于它对 .ipynb 的原生支持。以前写数据分析的文章，需要先把 Notebook 导出为 Markdown，图片还得手动处理。现在直接把 .ipynb 扔进 posts/ 目录，Quarto 就能自动渲染，连交互式图表都能保留！\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave generated by Python\")\nplt.show()\n\n\n\n相比于 Hugo 复杂的模板语法，Quarto 的配置主要集中在 _quarto.yml 和 Markdown 头部（YAML Front Matter），非常直观。\n\n\n\nQuarto 源自 RStudio 团队，天生带有学术基因。无论是公式支持、参考文献管理，还是侧边栏目录，都处理得非常专业。\n\\[\nE = mc^2\n\\]"
+  },
+  {
+    "objectID": "posts/hello-quarto/index.html#结语",
+    "href": "posts/hello-quarto/index.html#结语",
+    "title": "Hello Quarto: 为什么我选择它作为技术博客方案",
+    "section": "结语",
+    "text": "结语\n如果你也是数据科学从业者或 Python 爱好者，强烈推荐尝试 Quarto。它不仅是一个博客生成器，更是一个强大的技术发布系统。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html",
+    "href": "posts/rag-backend-fastapi/index.html",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "",
+    "text": "这篇文章建议你结合实际项目经历来写，用通俗但工程化的方式解释：业务背景是什么、为什么选择 RAG、整体架构如何设计，以及落地过程中的关键实践经验。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#背景与目标",
+    "href": "posts/rag-backend-fastapi/index.html#背景与目标",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "1. 背景与目标",
+    "text": "1. 背景与目标\n\n企业内部有大量 PDF / Word / 表格协议或业务文档，人工查找成本高。\n希望通过知识库问答系统，让业务/测试/一线工程师可以自然语言提问。\n回答要“可追溯”，能回溯到原始文档片段，而不是纯生成。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#整体架构设计",
+    "href": "posts/rag-backend-fastapi/index.html#整体架构设计",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "2. 整体架构设计",
+    "text": "2. 整体架构设计\n\n文档解析层：负责格式转换、文本抽取与分段。\n向量化与入库：将段落向量化，写入 Milvus 等向量数据库。\n检索与重排：根据问题在向量库中召回候选片段，并做必要的过滤/重排。\n生成层：将检索结果与用户问题拼接成 Prompt，交给大模型生成回答。\n服务层：使用 FastAPI 暴露统一的 HTTP 接口，负责认证、限流和日志等工程能力。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
+    "href": "posts/rag-backend-fastapi/index.html#fastapi-服务设计建议",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "3. FastAPI 服务设计建议",
+    "text": "3. FastAPI 服务设计建议\n\n使用 Pydantic 定义清晰的请求/响应模型，便于前后端协作与文档生成。\n将“检索逻辑”和“生成逻辑”拆分成可单独测试的 service / usecase 层。\n对向量检索、LLM 调用设置合理超时与熔断，避免单次请求拖慢整体系统。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
+    "href": "posts/rag-backend-fastapi/index.html#milvus-库表与索引设计要点",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "4. Milvus 库表与索引设计要点",
+    "text": "4. Milvus 库表与索引设计要点\n\n根据业务维度设计 collection，例如按系统、项目或文档类型划分。\n保存额外的 metadata（文档名、章节、页码等），方便在回答中展示出处。\n根据查询特性选择合适的索引类型和 metric（如 IP / cosine）。"
+  },
+  {
+    "objectID": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
+    "href": "posts/rag-backend-fastapi/index.html#工程化与上线实践",
+    "title": "从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）",
+    "section": "5. 工程化与上线实践",
+    "text": "5. 工程化与上线实践\n\n通过 Docker 封装 FastAPI 服务与向量服务，方便部署与回滚。\n在日志中记录 “检索到的片段” 与 “最终回答”，便于后续质量分析和调优。\n为关键接口编写自动化测试用例，验证检索+生成链路是否按预期工作。\n\n\n文章最后可以给出一个小的 Demo 仓库地址，或者部分关键代码片段，让读者可以快速上手。 你可以把这篇示例改写成真实经验分享，作为博客的第一篇正式文章。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "江斌",
+    "section": "",
+    "text": "Resume PDF    Github    Email \n\n\n\n\nAI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
+  },
+  {
+    "objectID": "index.html#个人简介",
+    "href": "index.html#个人简介",
+    "title": "江斌",
+    "section": "",
+    "text": "AI 应用工程师 / Python 后端开发工程师\n我是一名来自杭州的 AI 应用工程师 / Python 后端开发工程师，拥有 15 年软件开发与测试经验， 兼具互联网、电信与工业领域背景。从嵌入式硬件、自动化测试，到云端后端与大模型应用， 能够将复杂业务需求转化为稳定、可扩展的工程实现。\n近几年主要聚焦于：RAG 检索增强问答系统、缺陷检测大模型应用、Python 后端与 Azure 云上部署， 擅长从 0 到 1 规划技术方案并落地，包括接口设计、数据库建模、性能优化与工程化运维。"
+  },
+  {
+    "objectID": "index.html#技能栈",
+    "href": "index.html#技能栈",
+    "title": "江斌",
+    "section": "技能栈",
+    "text": "技能栈\n\n\n\n\n\nAI / 大模型 & RAG\n\n\n\nRAG 检索增强：文档解析、向量检索（Milvus 等）\n\n\nPrompt Engineering：多轮对话、工具调用\n\n\n缺陷检测大模型应用：专用视觉检测模型 + 通用 LLM 协同\n\n\nLLM Function Calling：与工作流编排\n\n\n\n\n\n\n\n\n\n后端开发 & 数据\n\n\n\nPython: FastAPI, Django, Flask\n\n\nAsync: Celery, RabbitMQ, WebSocket\n\n\nDB: MariaDB, MySQL, Milvus\n\n\nData: Scrapy, Pandas\n\n\n\n\n\n\n\n\n\n云原生 & 工程化\n\n\n\nAzure: Function, ML Service\n\n\nDevOps: Jenkins, GitLab CI, Docker\n\n\nTest: RobotFramework\n\n\nEmbedded: C / Assembly"
+  },
+  {
+    "objectID": "index.html#代表项目",
+    "href": "index.html#代表项目",
+    "title": "江斌",
+    "section": "代表项目",
+    "text": "代表项目\n\n\n\n\n\n缺陷检测大模型应用平台\n\n\n2025.04 – 至今 · 工业缺陷检测 · FastAPI / Azure / ML\n\n\n\n搭建缺陷检测系统后端，融合专用视觉模型与通用大模型，支持在线缺陷识别与判定。\n\n\n设计 FastAPI 接口与 Pydantic 数据模型，路由 RESTful 化，结构清晰易扩展。\n\n\n实现 Function Calling 与 ML 模型工程化部署，支持本地与云上双环境。\n\n\n通过异步队列与 WebSocket 提升系统吞吐与用户体验。\n\n\n\n\n\n\n\n\n\nRAG 智能问答系统\n\n\n2024.11 – 2025.04 · 企业知识库 · RAG / Milvus\n\n\n\n负责后端架构、编码、部署的全流程工作，项目已完成预期功能开发并预上线。\n\n\n选型并实现 RAG 检索增强方案，支持复杂文档与多轮问答。\n\n\n使用 Milvus 设计向量数据库结构，优化召回速度与精度。\n\n\n\n\n\n\n\n\n\nNOKIA 5G 3GPP 协议解析器\n\n\n2016 – 2022 · 通信协议 · Python / 文档解析\n\n\n\n针对超大体量、复杂表格结构的 3GPP Word 文档，开发自动化解析器。\n\n\n自动识别文本、表格与格式错误并部分纠错，输出结构化数据与日志。\n\n\n显著降低人工解析成本，提升协议数据处理的准确性与效率。\n\n\n\n\n\n\n\n\n\n自动化测试与效率工具合集\n\n\n2017 – 2020 · NOKIA · Python / Shell / SQL\n\n\n\n云平台测试环境一键预定工具：为团队节省约 1 小时/人/天，获 Tribe 年度 TOP3。\n\n\nSleeping Cell 检测与复位工具：基于 SQL + Shell，支撑数十万台 BTS 的问题排查，获 Tribe 年度 TOP10。\n\n\n\n\n\n\n\n\n\n电商云平台后台（开源 Demo）\n\n\n2015 – 2016 · 电商平台 · Django / 爬虫\n\n\n\n构建电商数据中心后台模块，使用 Django 实现管理后台。\n\n\n编写网络爬虫采集并整理 20G 级别电商数据。\n\n\n项目代码开源：github.com/jiangbingo/backend"
+  },
+  {
+    "objectID": "index.html#工作经历",
+    "href": "index.html#工作经历",
+    "title": "江斌",
+    "section": "工作经历",
+    "text": "工作经历\n\n\n\n杭州克雷登工业 · AI 应用工程师\n\n\n2024.11 – 至今 · 工业 AI / 缺陷检测 / FastAPI\n\n负责 AI 知识库与智能问答系统的设计与开发，推进 RAG 检索增强与大模型应用工程化。\n\n\n\n杭州人本集团 · Python 后端开发\n\n\n2024.08 – 2024.10 · 数字化 MES 平台\n\n负责 MES 平台后台模块技术规划与 Django 后台开发，设计异步 Celery 任务与数据库结构。\n\n\n\n诺基亚通信技术有限公司 · 测试开发工程师\n\n\n2016.10 – 2023.05 · 自动化测试 / 平台工具\n\n负责 5G 相关协议解析、自动化测试平台与效率工具开发，覆盖 Python、C++、Shell、Lua 等多种技术栈。\n\n\n\n杭州格菱科技有限公司 · Python 开发\n\n\n2014.12 – 2016.10 · 电商云平台\n\n参与电商云平台后台与数据采集系统开发。"
+  },
+  {
+    "objectID": "index.html#教育与证书",
+    "href": "index.html#教育与证书",
+    "title": "江斌",
+    "section": "教育与证书",
+    "text": "教育与证书\n\n中南民族大学 · 本科 · 电子信息工程类 – 生物医学工程 · 2005 – 2010\n大学英语六级"
+  },
+  {
+    "objectID": "index.html#联系我",
+    "href": "index.html#联系我",
+    "title": "江斌",
+    "section": "联系我",
+    "text": "联系我\n欢迎就 Python / AI 应用工程化 / RAG 系统 / 工业智能化等方向进行交流或合作。\n\n手机：15057134823\n邮箱：jiangbingo@hotmail.com\nGitHub：github.com/jiangbingo\n所在城市：杭州"
+  }
+]
