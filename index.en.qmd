@@ -1,0 +1,359 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.grid .hero-section}
+
+::: {.g-col-12 .g-col-md-4 .g-col-lg-3 .text-center .hero-sidebar}
+# Jiang Bin
+
+<img src="assets/avatar.jpg" class="profile-image" />
+
+<div class="hero-links">
+  <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
+    <i class="bi bi-github"></i> Github
+  </a>
+  <a href="mailto:jiangbingo@hotmail.com" class="btn btn-outline-secondary btn-sm" role="button">
+    <i class="bi bi-envelope"></i> Email
+  </a>
+</div>
+
+:::
+
+::: {.g-col-12 .g-col-md-8 .g-col-lg-9}
+
+## About Me
+
+**AI Application Engineer / Python Backend Developer**
+
+I am an AI Application Engineer / Python Backend Developer based in Hangzhou / Wuhan, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.
+
+In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations.
+
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## Skills
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">AI / LLM & RAG</h3>
+<ul>
+<li><strong>RAG</strong>: Document parsing, Vector retrieval (Milvus), Agent RAG</li>
+<li><strong>Prompt Engineering</strong>: Multi-turn dialogue, Tool calling, Text-to-SQL</li>
+<li><strong>Defect Detection LLM</strong>: YOLOv8 + General LLM collaboration</li>
+<li><strong>LLM Function Calling</strong>: Workflow orchestration, Vanna.ai SQL generation</li>
+<li><strong>Deep Learning</strong>: PyTorch 2.2.0+, TensorFlow 2.19.1, Keras 3.11.2</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Backend & Data</h3>
+<ul>
+<li><strong>Languages</strong>: Python (FastAPI, Django, Flask), <strong>C++</strong></li>
+<li><strong>Async</strong>: Celery, RabbitMQ, WebSocket, Async task scheduling</li>
+<li><strong>DB</strong>: MariaDB, MySQL, Milvus, <strong>PostgreSQL</strong>, SQLAlchemy 2.0+</li>
+<li><strong>Data</strong>: Scrapy, Pandas, NumPy, SciPy, UMAP, HDBSCAN clustering</li>
+<li><strong>API Design</strong>: RESTful API, Pydantic 2.9+, Async HTTP</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Cloud Native & Engineering</h3>
+<ul>
+<li><strong>Azure</strong>: Function, ML Service, Serverless, Web App, Blob Storage</li>
+<li><strong>DevOps</strong>: Jenkins, GitLab CI, GitHub Actions, Docker, JIRA</li>
+<li><strong>ML DevOps</strong>: Wheel package auto-build, GitHub Actions CI/CD, Model distribution</li>
+<li><strong>Test</strong>: RobotFramework, <strong>pytest</strong>, <strong>unittest</strong></li>
+<li><strong>Embedded</strong>: C / Assembly (MCU, ARM, DSP)</li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+<div class="my-5"></div>
+
+## Projects
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Defect Detection LLM Platform</h3>
+<div class="project-meta">2025.04 – Present · Industrial Defect Detection · FastAPI / Azure / ML</div>
+<ul>
+<li><strong>Backend Arch</strong>: Built backend for defect detection system, integrating visual models (YOLOv8) & LLMs for online identification.</li>
+<li><strong>API Design</strong>: Designed RESTful APIs using FastAPI & Pydantic 2.9+ models for high efficiency and stability.</li>
+<li><strong>Engineering</strong>: Implemented Function Calling & ML model deployment (Local/Cloud), optimizing resource allocation, supporting Azure ML Endpoint.</li>
+<li><strong>Performance</strong>: Designed RabbitMQ async queues & WebSocket communication to boost throughput and UX.</li>
+<li><strong>Tech Stack</strong>: PyTorch 2.2.0+, ONNX Runtime 1.16.0+, Celery, RabbitMQ, Azure Web App, Blob Storage</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">RAG Intelligent Q&A System</h3>
+<div class="project-meta">2024.11 – 2025.04 · Enterprise Knowledge Base · RAG / Milvus</div>
+<ul>
+<li><strong>Full Stack</strong>: Responsible for backend architecture, coding, workflow, and deployment (Pre-launched).</li>
+<li><strong>Core Tech</strong>: Led AI knowledge base construction, Prompt Engineering, and RAG development.</li>
+<li><strong>Data Opt</strong>: Designed Milvus vector database structure, significantly improving retrieval efficiency and accuracy.</li>
+<li><strong>Text-to-SQL</strong>: Implemented natural language to SQL conversion, integrated Vanna.ai for intelligent queries.</li>
+<li><strong>Tech Stack</strong>: FastAPI, Milvus, PostgreSQL, SQLAlchemy 2.0+, Agent RAG</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Quality Analysis Platform (piyi-api)</h3>
+<div class="project-meta">GitHub Open Source · FastAPI + Algorithm · 12 commits</div>
+<ul>
+<li><strong>Algorithm Integration</strong>: Developed quality analysis models based on TensorFlow 2.19.1 + Keras 3.11.2, implementing UMAP dimensionality reduction + HDBSCAN clustering.</li>
+<li><strong>Feature Engineering</strong>: Used NumPy, SciPy, Pandas for feature extraction and data processing, supporting high-dimensional data visualization.</li>
+<li><strong>Hybrid Deployment</strong>: Supported automatic switching between local models and Azure ML Endpoint for elastic scaling.</li>
+<li><strong>Tech Stack</strong>: TensorFlow 2.19.1, Keras 3.11.2, UMAP-learn 0.5.9, HDBSCAN 0.8.40, scikit-learn 1.7.2</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">AI Inference Engine (AI-Project)</h3>
+<div class="project-meta">GitHub Open Source · YOLOv8 ONNX Inference · 12 commits</div>
+<ul>
+<li><strong>Modular Design</strong>: Developed independently installable Python packages (ai_libs + fabric_defect), supporting one-click pip deployment.</li>
+<li><strong>High Performance</strong>: Implemented YOLOv8 object detection based on PyTorch 2.2.0+ and ONNX Runtime 1.16.0+, supporting GPU acceleration.</li>
+<li><strong>CI/CD Automation</strong>: Configured GitHub Actions for automatic wheel package building and GitHub Release, achieving production-grade deployment.</li>
+<li><strong>Tech Stack</strong>: PyTorch 2.2.0+, ONNX 1.15.0+, OpenCV 4.8.1+, pyproject.toml, GitHub Actions</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">CASPI Business System (caspi-api)</h3>
+<div class="project-meta">GitHub Open Source · Business API + CI/CD · 20 commits, 22 PRs</div>
+<ul>
+<li><strong>API Development</strong>: Developed core business APIs based on FastAPI, implementing file upload, batch deletion, and other functions.</li>
+<li><strong>CI/CD Optimization</strong>: Refactored GitHub Actions workflows, improving automated deployment efficiency.</li>
+<li><strong>Continuous Iteration</strong>: 22 PRs, high activity, excellent code quality (83% merge rate).</li>
+<li><strong>Tech Stack</strong>: FastAPI, Pydantic, GitHub Actions, Azure</li>
+</ul>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Genesis Large-Scale Project</h3>
+<div class="project-meta">GitHub Open Source · Agent RAG Practice · 25 commits, 174MB scale</div>
+<ul>
+<li><strong>Agent RAG Practice</strong>: Combined AI agents with retrieval-augmented generation to handle complex business logic.</li>
+<li><strong>Large-Scale System</strong>: Project volume 174MB, multi-module, multi-business line comprehensive system development.</li>
+<li><strong>Continuous Iteration</strong>: 25 high-quality code commits, rich system architecture design experience.</li>
+<li><strong>Tech Stack</strong>: Python, Agent RAG, Complex Business Systems</li>
+</ul>
+</div>
+</div>
+:::
+
+:::
+
+## GitHub Open Source Contributions
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Contribution Stats</h3>
+<div class="stats-grid">
+<div class="stat-item">
+<div class="stat-value">156+</div>
+<div class="stat-label">Code Commits</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">11</div>
+<div class="stat-label">Active Repos</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">30+</div>
+<div class="stat-label">Pull Requests</div>
+</div>
+</div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-8}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">Top Projects</h3>
+<div class="project-rankings">
+<div class="ranking-item">
+<span class="rank">1</span>
+<span class="project">defect-detection-trigger-task</span>
+<span class="commits">29 commits</span>
+</div>
+<div class="ranking-item">
+<span class="rank">2</span>
+<span class="project">genesis</span>
+<span class="commits">25 commits</span>
+</div>
+<div class="ranking-item">
+<span class="rank">3</span>
+<span class="project">caspi-api</span>
+<span class="commits">20 commits</span>
+</div>
+<div class="ranking-item">
+<span class="rank">4</span>
+<span class="project">defect-detection-api</span>
+<span class="commits">17 commits</span>
+</div>
+<div class="ranking-item">
+<span class="rank">5</span>
+<span class="project">genesisUserManagement</span>
+<span class="commits">13 commits</span>
+</div>
+</div>
+<p class="mt-3"><small>📊 Data source: <a href="docs/github_contributions_summary.md" target="_blank">GitHub Contributions Summary</a></small></p>
+</div>
+</div>
+:::
+
+:::
+
+## Experience
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou Clayton Industries · AI Application Engineer</div>
+<div class="timeline-meta">2024.11 – Present</div>
+<ul>
+<li>Responsible for backend design & dev using Pydantic + FastAPI, ensuring system stability.</li>
+<li>Designed intelligent Q&A system, focusing on Prompt Engineering & RAG technology selection.</li>
+<li>Developed defect detection ML algorithms and engineered LLM applications.</li>
+<li>Responsible for Azure cloud system engineering (Backend, Function Calling, ML) and performance optimization.</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou C&U Group · Python Backend Developer</div>
+<div class="timeline-meta">2024.08 – 2024.10 · Digital MES Platform</div>
+<ul>
+<li>Responsible for technical planning of the MES platform backend module.</li>
+<li>Implemented business logic (Django), designed async Celery tasks & MariaDB structure.</li>
+<li>Participated in API design & review, wrote technical documentation & interface standards.</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Nokia Solutions and Networks · Test Development Engineer</div>
+<div class="timeline-meta">2016.10 – 2023.05</div>
+<ul>
+<li><strong>Automation Test</strong>: Projects based on RobotFramework (Grey-box) and TTCN-3.</li>
+<li><strong>Software Dev</strong>: Participated in C++ software development and testing.</li>
+<li><strong>Tool Dev</strong>: Developed automation & platform tools using Python, Shell, Lua.</li>
+<li><strong>DevOps</strong>: Practiced CI/CD using Jenkins, GitLab CI, Docker, etc.</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Hangzhou Geling Technology · Python Developer</div>
+<div class="timeline-meta">2014.12 – 2016.10 · Ecommerce Cloud Platform</div>
+<ul>
+<li>Built data cloud platform based on Python Django.</li>
+<li>Responsible for web crawler data collection and processing.</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">Xizi YOUMY · Software Development Engineer</div>
+<div class="timeline-meta">2010.07 – 2014.09 · New Standard Escalator Project</div>
+<ul>
+<li>Responsible for logic software programming based on PLC, MCU, ARM, DSP (C/ASM).</li>
+<li>Developed and maintained test fixtures for embedded systems; conducted safety system certification.</li>
+<li>Provided technical guidance for pioneer products and resolved on-site issues.</li>
+<li><strong>Achievements</strong>: Completed SIL 2 certification; released the first batch of new national standard escalators.</li>
+</ul>
+</div>
+
+</div>
+
+<div class="my-5"></div>
+
+## Education
+
+- **South-Central Minzu University** · Bachelor · Biomedical Engineering · 2005 – 2010
+- CET-6
+
+<div class="my-5"></div>
+
+## Volunteer & Community
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-title">West Lake Maker Space · Mentor</div>
+<div class="timeline-meta">2015.06 – 2017.05</div>
+Served a community of 1000+ young makers, sharing technical experience and guiding project development; organized and hosted multiple technical workshops and hackathons.
+</div>
+
+<div class="timeline-item">
+<div class="timeline-title">1566 Maker Charity Fund · Ambassador</div>
+<div class="timeline-meta">Core Member</div>
+Provided charity funds and technical support for potential maker projects; participated in project reviews to help select and cultivate innovative projects with social value.
+</div>
+
+</div>
+
+<div class="my-5"></div>
+
+## Contact Me
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
+Welcome to connect for collaboration on Python / AI Engineering / RAG Systems / Industrial Intelligence.
+
+- **Email**: [jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
+- **GitHub**: [github.com/jiangbingo](https://github.com/jiangbingo)
+- **Location**: Hangzhou / Wuhan, China
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<img src="assets/wechat.jpg" style="width: 100%; max-width: 180px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="WeChat QR Code">
+:::
+
+:::

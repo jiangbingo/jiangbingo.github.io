@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "江斌"
+  description: "AI Application Engineer / Python Backend Developer"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+    right:
+      - text: "中文"
+        href: index.qmd
+      - text: "EN"
+        href: index.en.qmd
+      - icon: github
+        href: https://github.com/jiangbingo
+  page-footer:
+    center: "© 2025 江斌 · AI 应用工程师 / Python 后端开发工程师"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+    mainfont: "Inter"
+    comments:
+      giscus:
+        repo: jiangbingo/jiangbingo.github.io
+        repo-id: MDEwOlJlcG9zaXRvcnkxODk0MjYzMzQ=
+        category: Announcements
+        category-id: DIC_kwDOC0pqns4CzHkY
+        mapping: title
+        reactions-enabled: true
+        input-position: top
+        theme: light
+        language: zh-CN
