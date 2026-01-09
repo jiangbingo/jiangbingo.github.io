@@ -309,16 +309,8 @@ toc: false
 <div class="stat-value">156+</div>
 <div class="stat-label">代码提交</div>
 </div>
-<div class="stat-item">
-<div class="stat-value">30+</div>
-<div class="stat-label">Pull Requests</div>
 </div>
-<div class="stat-item">
-<div class="stat-value">83%</div>
-<div class="stat-label">PR合并率</div>
-</div>
-</div>
-<p class="text-center text-muted"><small>涵盖私有企业项目与开源贡献</small></p>
+<p class="text-center text-muted"><small>涵盖私有企业项目</small></p>
 
 <div class="my-5"></div>
 
@@ -428,4 +420,5 @@ toc: false
 <img src="assets/wechat.jpg" style="width: 100%; max-width: 180px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="WeChat QR Code">
 :::
 
+:::
 :::
