@@ -302,16 +302,6 @@ toc: false
 
 :::
 
-## 技术贡献
-
-<div class="stats-grid my-4">
-<div class="stat-item">
-<div class="stat-value">156+</div>
-<div class="stat-label">代码提交</div>
-</div>
-</div>
-<p class="text-center text-muted"><small>涵盖私有企业项目</small></p>
-
 <div class="my-5"></div>
 
 ## 工作经历
