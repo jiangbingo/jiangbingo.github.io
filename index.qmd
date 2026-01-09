@@ -302,15 +302,9 @@ toc: false
 
 :::
 
-## 技术贡献与工程实践
+## 技术贡献
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-<div class="card h-100">
-<div class="card-body">
-<h3 class="card-title">代码贡献</h3>
-<div class="stats-grid">
+<div class="stats-grid my-4">
 <div class="stat-item">
 <div class="stat-value">156+</div>
 <div class="stat-label">代码提交</div>
@@ -324,48 +318,7 @@ toc: false
 <div class="stat-label">PR合并率</div>
 </div>
 </div>
-<p class="mt-3"><small>涵盖私有企业项目与开源贡献</small></p>
-</div>
-</div>
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-8}
-<div class="card h-100">
-<div class="card-body">
-<h3 class="card-title">核心项目领域</h3>
-<div class="project-rankings">
-<div class="ranking-item">
-<span class="rank">1</span>
-<span class="project">AI缺陷检测系统</span>
-<span class="commits">深度学习 + 异步任务调度</span>
-</div>
-<div class="ranking-item">
-<span class="rank">2</span>
-<span class="project">用户权限管理平台</span>
-<span class="commits">RBAC + 多租户架构</span>
-</div>
-<div class="ranking-item">
-<span class="rank">3</span>
-<span class="project">企业级业务系统</span>
-<span class="commits">FastAPI + CI/CD + 云部署</span>
-</div>
-<div class="ranking-item">
-<span class="rank">4</span>
-<span class="project">质量分析平台</span>
-<span class="commits">ML算法 + 数据分析</span>
-</div>
-<div class="ranking-item">
-<span class="rank">5</span>
-<span class="project">AI推理引擎</span>
-<span class="commits">YOLOv8 + ONNX + 自动化构建</span>
-</div>
-</div>
-<p class="mt-3"><small>📊 项目类型涵盖企业私有项目与开源项目，展示全栈开发与AI工程化能力</small></p>
-</div>
-</div>
-:::
-
-:::
+<p class="text-center text-muted"><small>涵盖私有企业项目与开源贡献</small></p>
 
 <div class="my-5"></div>
 
