@@ -184,7 +184,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">质量分析平台（piyi-api）</h3>
-<div class="project-meta">GitHub开源项目 · FastAPI + 算法一体化 · 12次提交</div>
+<div class="project-meta">企业项目 · FastAPI + 算法一体化</div>
 <ul>
 <li><strong>算法集成</strong>：基于 TensorFlow 2.19.1 + Keras 3.11.2 开发质量分析模型，实现 UMAP 降维 + HDBSCAN 聚类。</li>
 <li><strong>特征工程</strong>：使用 NumPy、SciPy、Pandas 进行特征提取和数据处理，支持高维数据降维可视化。</li>
@@ -199,7 +199,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">AI推理引擎（AI-Project）</h3>
-<div class="project-meta">GitHub开源项目 · YOLOv8 ONNX推理 · 12次提交</div>
+<div class="project-meta">企业项目 · YOLOv8 ONNX推理</div>
 <ul>
 <li><strong>模块化设计</strong>：开发可独立安装的Python包（ai_libs + fabric_defect），支持pip一键部署。</li>
 <li><strong>高性能推理</strong>：基于 PyTorch 2.2.0+ 和 ONNX Runtime 1.16.0+ 实现 YOLOv8 目标检测，支持GPU加速。</li>
@@ -214,7 +214,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">CASPI业务系统（caspi-api）</h3>
-<div class="project-meta">GitHub开源项目 · 业务API + CI/CD · 20次提交，22个PR</div>
+<div class="project-meta">企业项目 · 业务API + CI/CD</div>
 <ul>
 <li><strong>API开发</strong>：基于 FastAPI 开发核心业务API，实现文件上传、批量删除等功能。</li>
 <li><strong>CI/CD优化</strong>：重构 GitHub Actions 工作流，提升自动化部署效率。</li>
@@ -229,7 +229,7 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">Genesis大型项目</h3>
-<div class="project-meta">GitHub开源项目 · Agent RAG实践 · 25次提交，174MB规模</div>
+<div class="project-meta">企业项目 · Agent RAG实践</div>
 <ul>
 <li><strong>Agent RAG实践</strong>：AI代理与检索增强生成结合，处理复杂业务逻辑。</li>
 <li><strong>大规模系统</strong>：项目体积174MB，多模块、多业务线综合系统开发。</li>
