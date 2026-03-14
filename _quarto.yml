@@ -13,6 +13,9 @@ website:
       - href: blog.qmd
         text: Blog
     right:
+      - text: "专业简历"
+        href: https://jiangbin-resume.vercel.app
+        target: _blank
       - text: "中文"
         href: index.qmd
       - text: "EN"
