@@ -172,7 +172,7 @@
     "href": "blog.html",
     "title": "Technical Blog",
     "section": "",
-    "text": "Hello Quarto: 为什么我选择它作为技术博客方案\n\n\n\n\n\n\nQuarto\n\n\nBlogging\n\n\nPython\n\n\n\n从 Hugo 到 Hexo，再到最终选择 Quarto，聊聊我的博客折腾史以及 Quarto 的独特优势。\n\n\n\n\n\nNov 28, 2024\n\n\nJiang Bin\n\n\n\n\n\n\n\n\n\n\n\n\n从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）\n\n\n\n\n\n\nRAG\n\n\nFastAPI\n\n\nMilvus\n\n\nAI\n\n\n\n结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。\n\n\n\n\n\nNov 27, 2024\n\n\nJiang Bin\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello Quarto: 为什么我选择它作为技术博客方案\n\n\n\nQuarto\n\nBlogging\n\nPython\n\n\n\n从 Hugo 到 Hexo，再到最终选择 Quarto，聊聊我的博客折腾史以及 Quarto 的独特优势。\n\n\n\n\n\nNov 28, 2024\n\n\nJiang Bin\n\n\n\n\n\n\n\n\n\n\n\n\n从 0 到 1 搭建一个 RAG 智能问答后端（FastAPI + Milvus）\n\n\n\nRAG\n\nFastAPI\n\nMilvus\n\nAI\n\n\n\n结合企业知识库项目的经验，梳理如何使用 FastAPI 与 Milvus 搭建 RAG 智能问答后端的整体思路。\n\n\n\n\n\nNov 27, 2024\n\n\nJiang Bin\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/hello-quarto/index.html",
