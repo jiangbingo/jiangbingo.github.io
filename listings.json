@@ -1,0 +1,9 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/hello-quarto/index.html",
+      "/posts/rag-backend-fastapi/index.html"
+    ]
+  }
+]
