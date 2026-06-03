@@ -4,7 +4,7 @@ project:
 
 website:
   title: "江斌"
-  description: "AI Application Engineer / Python Backend Developer"
+  description: "从嵌入式到 LLM 平台的 AI 应用开发工程师"
   navbar:
     title: false
     left:
@@ -23,7 +23,7 @@ website:
       - icon: github
         href: https://github.com/jiangbingo
   page-footer:
-    center: "© 2025 江斌 · AI 应用工程师 / Python 后端开发工程师"
+    center: "© 2025 江斌 · AI 应用开发工程师 / Python 后端开发工程师"
 
 format:
   html:

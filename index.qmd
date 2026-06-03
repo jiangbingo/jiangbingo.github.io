@@ -27,9 +27,9 @@ toc: false
 
 ## 个人简介
 
-**AI 应用工程师 / Python 后端开发工程师**
+**AI 应用开发工程师 / Python 后端开发工程师**
 
-来自杭州 / 武汉，15 年软件开发与测试经验。从嵌入式硬件、自动化测试，到云端后端与大模型应用，能够将复杂业务需求转化为稳定、可扩展的工程实现。
+来自杭州 / 武汉，从嵌入式到 LLM 平台，跨越硬件与 AI 的全栈工程师。专注模型推理部署与 AI 应用工程化，让大模型在真实业务中稳定运行。
 
 :::
 
@@ -43,7 +43,7 @@ toc: false
 <div class="skill-card">
 <div class="skill-icon">🤖</div>
 <div class="skill-title">AI 应用工程</div>
-<div class="skill-desc">RAG 检索增强、Prompt Engineering、Agent RAG、Text-to-SQL</div>
+<div class="skill-desc">RAG 检索增强、Prompt Engineering、Agent RAG、模型评测、vLLM/MLX 推理</div>
 </div>
 :::
 
@@ -51,15 +51,15 @@ toc: false
 <div class="skill-card">
 <div class="skill-icon">⚙️</div>
 <div class="skill-title">Python 后端</div>
-<div class="skill-desc">FastAPI、Django、Pydantic、异步架构、消息队列、RESTful API</div>
+<div class="skill-desc">FastAPI、Django、Pydantic、SQLModel、Celery、Redis、异步架构</div>
 </div>
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 <div class="skill-card">
 <div class="skill-icon">☁️</div>
-<div class="skill-title">云原生 & ML 部署</div>
-<div class="skill-desc">Azure Functions、Serverless、ML Endpoint、GitHub Actions CI/CD</div>
+<div class="skill-title">基础设施 & DevOps</div>
+<div class="skill-desc">Docker Compose、GitHub Actions、Gitea Actions、Azure ML、Nginx</div>
 </div>
 :::
 
@@ -83,7 +83,7 @@ toc: false
 <div class="skill-card">
 <div class="skill-icon">💻</div>
 <div class="skill-title">全栈工程背景</div>
-<div class="skill-desc">嵌入式开发（C/汇编）、Python 全栈、跨领域技术融合</div>
+<div class="skill-desc">嵌入式开发（C/汇编）、React/TypeScript、Python 全栈、跨领域技术融合</div>
 </div>
 :::
 
@@ -102,9 +102,9 @@ toc: false
 <ul class="skills-list">
 <li><strong>RAG 检索增强</strong>：文档解析、向量检索（Milvus）、Agent RAG</li>
 <li><strong>Prompt Engineering</strong>：多轮对话、工具调用、Text-to-SQL</li>
-<li><strong>缺陷检测大模型应用</strong>：YOLOv8 + 通用 LLM 协同</li>
+<li><strong>模型推理部署</strong>：vLLM (GPU) / MLX (Apple Silicon)、模型评测 (lm-eval / MT-Bench)</li>
 <li><strong>LLM Function Calling</strong>：与工作流编排、Vanna.ai SQL生成</li>
-<li><strong>深度学习框架</strong>：PyTorch 2.2.0+、TensorFlow 2.19.1、Keras 3.11.2</li>
+<li><strong>深度学习框架</strong>：PyTorch 2.2.0+、TensorFlow 2.19.1、ONNX Runtime</li>
 </ul>
 </div>
 </div>
@@ -116,8 +116,8 @@ toc: false
 <h3 class="card-title">后端开发 & 数据</h3>
 <ul class="skills-list">
 <li><strong>Languages</strong>: Python (FastAPI, Django, Flask), <strong>C++</strong></li>
-<li><strong>Async</strong>: Celery, RabbitMQ, WebSocket, 异步任务调度</li>
-<li><strong>DB</strong>: MariaDB, MySQL, Milvus, <strong>PostgreSQL</strong>, SQLAlchemy 2.0+</li>
+<li><strong>Async</strong>: Celery, Redis, WebSocket, 异步任务调度</li>
+<li><strong>DB</strong>: MariaDB, MySQL, Milvus, <strong>PostgreSQL</strong>, SQLModel / Alembic</li>
 <li><strong>Data</strong>: Scrapy, Pandas, NumPy, SciPy, UMAP降维, HDBSCAN聚类</li>
 <li><strong>API Design</strong>: RESTful API, Pydantic 2.9+, 异步HTTP</li>
 </ul>
@@ -128,13 +128,13 @@ toc: false
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
 <div class="card h-100">
 <div class="card-body">
-<h3 class="card-title">云原生 & 工程化</h3>
+<h3 class="card-title">基础设施 & 工程化</h3>
 <ul class="skills-list">
 <li><strong>Azure</strong>: Function, ML Service, Serverless, Web App, Blob Storage</li>
-<li><strong>DevOps</strong>: Jenkins, GitLab CI, GitHub Actions, Docker, JIRA</li>
-<li><strong>ML DevOps</strong>: wheel包自动构建、GitHub Actions CI/CD、模型分发</li>
+<li><strong>DevOps</strong>: Docker Compose, GitHub Actions, Gitea Actions, Nginx, JIRA</li>
+<li><strong>ML DevOps</strong>: wheel包自动构建、CI/CD、模型分发</li>
 <li><strong>Test</strong>: RobotFramework, <strong>pytest</strong>, <strong>unittest</strong></li>
-<li><strong>Embedded</strong>: C / Assembly (MCU, ARM, DSP)</li>
+<li><strong>Frontend</strong>: React / TypeScript</li>
 </ul>
 </div>
 </div>
@@ -147,6 +147,22 @@ toc: false
 ## 代表项目
 
 ::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="card h-100">
+<div class="card-body">
+<h3 class="card-title">NexusMind AI 训推一体化平台</h3>
+<div class="project-meta">2026.03 – 至今 · LLM 平台 · FastAPI / React / vLLM</div>
+<ul>
+<li><strong>全栈 Monorepo</strong>：前后端一体化开发，OpenAI 兼容 Chat API，支持流式/非流式 + Thinking 推理模式。</li>
+<li><strong>可插拔推理后端</strong>：vLLM (GPU) / MLX (Apple Silicon) 硬件自动选择，模型注册表全生命周期管理。</li>
+<li><strong>IntentOS</strong>：Monaco Editor + Verilog 编译/仿真/综合/Lint + AI Agent 对话的在线编程环境。</li>
+<li><strong>模型评测</strong>：集成 lm-eval 多基准评测 + MT-Bench 对话评测，Celery 异步任务调度。</li>
+<li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX</li>
+</ul>
+</div>
+</div>
+:::
 
 ::: {.g-col-12 .g-col-lg-6}
 <div class="card h-100">
@@ -309,8 +325,19 @@ toc: false
 <div class="timeline">
 
 <div class="timeline-item">
+<div class="timeline-title">亿方杭创 · AI 应用开发工程师</div>
+<div class="timeline-meta">2026.03 – 至今</div>
+<ul>
+<li><strong>LLM 训推平台</strong>：全栈开发 AI 训推一体化平台，涵盖 OpenAI 兼容 Chat API（流式/非流式 + Thinking 模式）、模型全生命周期管理。</li>
+<li><strong>推理服务</strong>：实现可插拔推理后端（vLLM GPU / MLX Apple Silicon 自动切换），模型评测（lm-eval + MT-Bench）。</li>
+<li><strong>在线编程环境</strong>：开发 IntentOS Verilog 在线编程平台（Monaco Editor + EDA 工具链 + AI Agent 对话）。</li>
+<li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX、Docker Compose</li>
+</ul>
+</div>
+
+<div class="timeline-item">
 <div class="timeline-title">杭州克雷登工业 · AI 应用工程师</div>
-<div class="timeline-meta">2024.11 – 至今</div>
+<div class="timeline-meta">2024.11 – 2026.03</div>
 <ul>
 <li><strong>后端架构</strong>：负责后端设计与开发，采用 Pydantic + FastAPI，确保系统高效稳定。</li>
 <li><strong>AI系统开发</strong>：设计开发智能问答系统，专注于 Prompt 工程及 RAG 技术选型实践，提升问答准确率与语义理解效果。</li>
