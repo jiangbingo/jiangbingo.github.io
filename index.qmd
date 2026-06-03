@@ -151,12 +151,12 @@ toc: false
 ::: {.g-col-12 .g-col-lg-6}
 <div class="card h-100">
 <div class="card-body">
-<h3 class="card-title">NexusMind AI 训推一体化平台</h3>
+<h3 class="card-title">Agent EDA — LLM 训推一体化平台</h3>
 <div class="project-meta">2026.03 – 至今 · LLM 平台 · FastAPI / React / vLLM</div>
 <ul>
 <li><strong>全栈 Monorepo</strong>：前后端一体化开发，OpenAI 兼容 Chat API，支持流式/非流式 + Thinking 推理模式。</li>
 <li><strong>可插拔推理后端</strong>：vLLM (GPU) / MLX (Apple Silicon) 硬件自动选择，模型注册表全生命周期管理。</li>
-<li><strong>IntentOS</strong>：Monaco Editor + Verilog 编译/仿真/综合/Lint + AI Agent 对话的在线编程环境。</li>
+<li><strong>Verilog AI 辅助编程</strong>：Monaco Editor + 编译/仿真/综合/Lint + AI Agent 对话的在线编程环境。</li>
 <li><strong>模型评测</strong>：集成 lm-eval 多基准评测 + MT-Bench 对话评测，Celery 异步任务调度。</li>
 <li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX</li>
 </ul>
@@ -330,7 +330,7 @@ toc: false
 <ul>
 <li><strong>LLM 训推平台</strong>：全栈开发 AI 训推一体化平台，涵盖 OpenAI 兼容 Chat API（流式/非流式 + Thinking 模式）、模型全生命周期管理。</li>
 <li><strong>推理服务</strong>：实现可插拔推理后端（vLLM GPU / MLX Apple Silicon 自动切换），模型评测（lm-eval + MT-Bench）。</li>
-<li><strong>在线编程环境</strong>：开发 IntentOS Verilog 在线编程平台（Monaco Editor + EDA 工具链 + AI Agent 对话）。</li>
+<li><strong>Verilog AI 辅助编程</strong>：开发 Verilog 在线编程平台（Monaco Editor + EDA 工具链 + AI Agent 对话）。</li>
 <li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX、Docker Compose</li>
 </ul>
 </div>
