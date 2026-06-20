@@ -12,6 +12,9 @@ toc: false
 <img src="assets/avatar.jpg" class="profile-image" />
 
 <div class="hero-links">
+  <a href="https://jiangbin-resume.vercel.app/" class="btn btn-primary btn-sm" role="button">
+    <i class="bi bi-file-earmark-person"></i> Resume
+  </a>
   <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
     <i class="bi bi-github"></i> Github
   </a>
@@ -26,11 +29,11 @@ toc: false
 
 ## About Me
 
-**AI Application Engineer / Python Backend Developer**
+**AI Application Engineer · Tech Lead, Agent EDA Platform @ YFHC**
 
-I am an AI Application Engineer / Python Backend Developer based in Hangzhou / Wuhan, with 15 years of experience in software development and testing, spanning Internet, Telecom, and Industrial sectors. From embedded hardware and automation testing to cloud backend and LLM applications, I excel at transforming complex business requirements into stable, scalable engineering solutions.
+Based in Hangzhou, I've evolved from embedded systems engineer to LLM platform tech lead across 15 years in Internet, Telecom, and Industrial sectors. Currently leading Agent EDA Platform — an enterprise LLM training/inference platform focusing on pluggable vLLM/MLX backends, Verilog AI-assisted programming, EDA Agent X86 closed-loop integration, and model evaluation systems.
 
-In recent years, I have focused on: RAG (Retrieval-Augmented Generation) systems, Defect Detection LLM applications, Python backend development, and Azure cloud deployment. I specialize in planning and implementing technical solutions from 0 to 1, including API design, database modeling, performance optimization, and engineering operations.
+Previously I shipped RAG QA systems (60%→90% accuracy), defect-detection LLM applications, and Azure-serverless backends. I specialize in 0-to-1 architecture, API design, database modeling, and engineering operations that turn complex business requirements into stable, scalable systems.
 
 :::
 

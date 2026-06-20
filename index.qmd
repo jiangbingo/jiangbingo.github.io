@@ -13,6 +13,9 @@ toc: false
 <img src="assets/avatar.jpg" class="profile-image" />
 
 <div class="hero-links">
+  <a href="https://jiangbin-resume.vercel.app/" class="btn btn-primary btn-sm" role="button">
+    <i class="bi bi-file-earmark-person"></i> 求职简历
+  </a>
   <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
     <i class="bi bi-github"></i> Github
   </a>
@@ -27,9 +30,9 @@ toc: false
 
 ## 个人简介
 
-**AI 应用开发工程师 / Python 后端开发工程师**
+**AI 应用开发工程师 · Agent EDA Platform @ YFHC**
 
-来自杭州 / 武汉，从嵌入式到 LLM 平台，跨越硬件与 AI 的全栈工程师。专注模型推理部署与 AI 应用工程化，让大模型在真实业务中稳定运行。
+来自杭州，从嵌入式到 LLM 平台，跨越硬件与 AI 的全栈工程师。当前主导 Agent EDA Platform(LLM 训推一体化平台)开发,聚焦 vLLM/MLX 推理后端、Verilog AI 辅助编程、EDA Agent X86 闭环与模型评测体系。
 
 :::
 
@@ -152,13 +155,16 @@ toc: false
 <div class="card h-100">
 <div class="card-body">
 <h3 class="card-title">Agent EDA — LLM 训推一体化平台</h3>
-<div class="project-meta">2026.03 – 至今 · LLM 平台 · FastAPI / React / vLLM</div>
+<div class="project-meta">2026.03 – 至今 · 技术负责人 · FastAPI / React 19 / vLLM / MLX</div>
 <ul>
-<li><strong>全栈 Monorepo</strong>：前后端一体化开发，OpenAI 兼容 Chat API，支持流式/非流式 + Thinking 推理模式。</li>
-<li><strong>可插拔推理后端</strong>：vLLM (GPU) / MLX (Apple Silicon) 硬件自动选择，模型注册表全生命周期管理。</li>
-<li><strong>Verilog AI 辅助编程</strong>：Monaco Editor + 编译/仿真/综合/Lint + AI Agent 对话的在线编程环境。</li>
-<li><strong>模型评测</strong>：集成 lm-eval 多基准评测 + MT-Bench 对话评测，Celery 异步任务调度。</li>
-<li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX</li>
+<li><strong>全栈 Monorepo</strong>：OpenAI 兼容 Chat API（流式 + Thinking 模式，支持 qwen3/deepseek-r1），模型全生命周期（注册 → 下载 → 部署 → 推理）。</li>
+<li><strong>可插拔推理后端</strong>：vLLM (Linux GPU) / MLX (Apple Silicon) 硬件自动切换，GPU 资源动态分配。</li>
+<li><strong>Verilog AI 辅助编程</strong>：Monaco Editor + EDA 工具链（iverilog/yosys/verilator）+ AI Agent + WaveDrom 波形查看。</li>
+<li><strong>EDA Agent X86 闭环</strong>：AI 服务器调度 + X86 执行节点，SSH 非交互式提交 Innovus/Calibre/VCS 商业 EDA 工具。</li>
+<li><strong>模型评测</strong>：lm-eval + MT-Bench + Verilog 专项（HDLBits/VerilogEval/APB-CRC），Celery 四队列异步调度。</li>
+<li><strong>工程化</strong>：JWT + LDAP 认证 + RBAC 三级权限 + Docker BuildKit 多阶段 + Gitea Actions CI/CD。</li>
+<li><strong>研究产出</strong>：芯片设计 Agent 横评报告（10+ 开源/商业 agent），vLLM 多模型 GPU 配置 benchmark v4.3。</li>
+<li><strong>技术栈</strong>：FastAPI、React 19、PostgreSQL、Redis、Celery、vLLM、MLX、Docker Compose、Gitea Actions</li>
 </ul>
 </div>
 </div>
@@ -325,13 +331,17 @@ toc: false
 <div class="timeline">
 
 <div class="timeline-item">
-<div class="timeline-title">亿方杭创 · AI 应用开发工程师</div>
-<div class="timeline-meta">2026.03 – 至今</div>
+<div class="timeline-title">亿方杭创 · AI 应用开发工程师（Agent EDA Platform 技术负责人）</div>
+<div class="timeline-meta">2026.03 – 至今 · 杭州</div>
 <ul>
-<li><strong>LLM 训推平台</strong>：全栈开发 AI 训推一体化平台，涵盖 OpenAI 兼容 Chat API（流式/非流式 + Thinking 模式）、模型全生命周期管理。</li>
-<li><strong>推理服务</strong>：实现可插拔推理后端（vLLM GPU / MLX Apple Silicon 自动切换），模型评测（lm-eval + MT-Bench）。</li>
-<li><strong>Verilog AI 辅助编程</strong>：开发 Verilog 在线编程平台（Monaco Editor + EDA 工具链 + AI Agent 对话）。</li>
-<li><strong>技术栈</strong>：FastAPI、React、PostgreSQL、Redis、Celery、vLLM、MLX、Docker Compose</li>
+<li><strong>平台主导</strong>：担任 Agent EDA Platform（LLM 训推一体化平台）技术负责人，主导架构设计、技术选型与团队分工。</li>
+<li><strong>推理引擎</strong>：实现 OpenAI 兼容 Chat API（流式 + Thinking 模式），设计可插拔推理后端（vLLM GPU / MLX Apple Silicon 硬件级自动切换）。</li>
+<li><strong>模型全生命周期</strong>：搭建注册 → ModelScope 下载 → 部署 → 推理全流程，GPU 资源动态分配，模型评测体系（lm-eval + MT-Bench + Verilog 专项）。</li>
+<li><strong>Verilog AI 辅助编程</strong>：开发 Verilog 在线 IDE（Monaco Editor + EDA 工具链 + AI Agent + WaveDrom 波形查看）。</li>
+<li><strong>EDA Agent X86 闭环</strong>：设计 AI 服务器调度 + X86 执行节点的分布式架构，SSH 非交互式提交商业 EDA 工具（Innovus/Calibre/VCS）。</li>
+<li><strong>工程化</strong>：Celery 四队列异步调度 + JWT/LDAP 认证 + RBAC 三级权限 + Docker BuildKit 多阶段构建 + Gitea Actions CI/CD。</li>
+<li><strong>研究产出</strong>：芯片设计 Agent 横评报告（10+ 开源/商业 agent），vLLM 多模型 GPU 配置 benchmark，算力评估报告。</li>
+<li><strong>技术栈</strong>：FastAPI、React 19、PostgreSQL、Redis、Celery、vLLM、MLX、Docker Compose、Gitea Actions</li>
 </ul>
 </div>
 
