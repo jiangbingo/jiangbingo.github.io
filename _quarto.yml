@@ -22,6 +22,8 @@ website:
         href: index.en.qmd
       - icon: github
         href: https://github.com/jiangbingo
+      - icon: twitter-x
+        href: https://x.com/jiangbinAI
   page-footer:
     center: "© 2025 江斌 · AI 应用开发工程师 / Python 后端开发工程师"
 

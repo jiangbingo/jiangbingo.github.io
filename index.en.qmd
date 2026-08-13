@@ -15,8 +15,14 @@ toc: false
   <a href="https://jiangbin-resume.vercel.app/" class="btn btn-primary btn-sm" role="button">
     <i class="bi bi-file-earmark-person"></i> Resume
   </a>
+  <a href="https://jiangbin-ai.pages.dev" class="btn btn-outline-primary btn-sm" role="button">
+    <i class="bi bi-robot"></i> AI Portal
+  </a>
   <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
     <i class="bi bi-github"></i> Github
+  </a>
+  <a href="https://x.com/jiangbinAI" class="btn btn-outline-dark btn-sm" role="button">
+    <i class="bi bi-twitter-x"></i> X
   </a>
   <a href="mailto:jiangbingo@hotmail.com" class="btn btn-outline-secondary btn-sm" role="button">
     <i class="bi bi-envelope"></i> Email
@@ -352,6 +358,8 @@ Welcome to connect for collaboration on Python / AI Engineering / RAG Systems / 
 
 - **Email**: [jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
 - **GitHub**: [github.com/jiangbingo](https://github.com/jiangbingo)
+- **AI Portal**: [jiangbin-ai.pages.dev](https://jiangbin-ai.pages.dev)
+- **X (Twitter)**: [x.com/jiangbinAI](https://x.com/jiangbinAI)
 - **Location**: Hangzhou / Wuhan, China
 :::
 

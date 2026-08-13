@@ -16,8 +16,14 @@ toc: false
   <a href="https://jiangbin-resume.vercel.app/" class="btn btn-primary btn-sm" role="button">
     <i class="bi bi-file-earmark-person"></i> 求职简历
   </a>
+  <a href="https://jiangbin-ai.pages.dev" class="btn btn-outline-primary btn-sm" role="button">
+    <i class="bi bi-robot"></i> AI 门户
+  </a>
   <a href="https://github.com/jiangbingo" class="btn btn-outline-dark btn-sm" role="button">
     <i class="bi bi-github"></i> Github
+  </a>
+  <a href="https://x.com/jiangbinAI" class="btn btn-outline-dark btn-sm" role="button">
+    <i class="bi bi-twitter-x"></i> X
   </a>
   <a href="mailto:jiangbingo@hotmail.com" class="btn btn-outline-secondary btn-sm" role="button">
     <i class="bi bi-envelope"></i> Email
@@ -440,6 +446,8 @@ toc: false
 
 - **邮箱**：[jiangbingo@hotmail.com](mailto:jiangbingo@hotmail.com)
 - **GitHub**：[github.com/jiangbingo](https://github.com/jiangbingo)
+- **AI 门户**：[jiangbin-ai.pages.dev](https://jiangbin-ai.pages.dev)
+- **X（Twitter）**：[x.com/jiangbinAI](https://x.com/jiangbinAI)
 - **所在城市**：杭州 / 武汉
 :::
 
