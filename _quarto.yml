@@ -13,6 +13,9 @@ website:
       - href: blog.qmd
         text: Blog
     right:
+      - text: "AI 门户"
+        href: https://jiangbin-ai.pages.dev
+        target: _blank
       - text: "专业简历"
         href: https://jiangbin-resume.vercel.app
         target: _blank
