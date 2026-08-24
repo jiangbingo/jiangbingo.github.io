@@ -1,34 +1,27 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - robots.txt
 
 website:
-  title: "江斌"
-  description: "从嵌入式到 LLM 平台的 AI 应用开发工程师"
+  title: "Jiangbin AI"
+  description: "AI 工具、工程方法与公开实践笔记。"
   navbar:
-    title: false
+    title: "Jiangbin AI"
     left:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
-        text: Blog
+      - href: index.en.qmd
+        text: EN
     right:
-      - text: "AI 门户"
+      - text: "Jiangbin AI"
         href: https://jiangbin-ai.pages.dev
         target: _blank
-      - text: "专业简历"
-        href: https://jiangbin-resume.vercel.app
-        target: _blank
-      - text: "中文"
-        href: index.qmd
-      - text: "EN"
-        href: index.en.qmd
       - icon: github
         href: https://github.com/jiangbingo
-      - icon: twitter-x
-        href: https://x.com/jiangbinAI
   page-footer:
-    center: "© 2025 江斌 · AI 应用开发工程师 / Python 后端开发工程师"
+    center: "Public technical notes · Privacy-reviewed"
 
 format:
   html:
@@ -36,14 +29,3 @@ format:
     css: styles.css
     toc: false
     mainfont: "Inter"
-    comments:
-      giscus:
-        repo: jiangbingo/jiangbingo.github.io
-        repo-id: MDEwOlJlcG9zaXRvcnkxODk0MjYzMzQ=
-        category: Announcements
-        category-id: DIC_kwDOC0pqns4CzHkY
-        mapping: title
-        reactions-enabled: true
-        input-position: top
-        theme: light
-        language: zh-CN

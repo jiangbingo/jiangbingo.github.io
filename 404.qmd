@@ -1,0 +1,15 @@
+---
+title: "Page removed"
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+---
+
+# Page removed
+
+This legacy page is no longer published.
+
+[Visit Jiangbin AI](https://jiangbin-ai.pages.dev){.btn .btn-primary target="_blank"}

@@ -1,12 +1,15 @@
 ---
-title: "Technical Blog"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Archive notice"
 page-layout: full
-title-block-banner: true
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow">
 ---
+
+# Archived public page
+
+The previous article archive is no longer published here. This address is retained temporarily so that existing links resolve without exposing historical profile or project information.
+
+[Visit Jiangbin AI](https://jiangbin-ai.pages.dev){.btn .btn-primary target="_blank"}
